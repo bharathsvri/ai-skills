@@ -1,0 +1,289 @@
+{
+ "_note": "Companies and the public job board each one really uses. Every token was checked live on 2026-10-15 (jobs_seen = open postings that day). Greenhouse, Lever and Ashby publish these boards as public JSON for exactly this use. Add your own with --board 'Company=greenhouse:token' or run `jobs.py check` to re-verify.",
+ "verified": "2026-10-15",
+ "endpoints": {
+  "greenhouse": "https://boards-api.greenhouse.io/v1/boards/<token>/jobs (detail: /jobs/<id>)",
+  "lever": "https://api.lever.co/v0/postings/<token>?mode=json",
+  "ashby": "https://api.ashbyhq.com/posting-api/job-board/<token>?includeCompensation=true",
+  "workday": "POST https://<host>/wday/cxs/<tenant>/<site>/jobs",
+  "eightfold": "https://<host>/api/apply/v2/jobs?domain=<domain>&query=<keywords>"
+ },
+ "boards": [
+  {
+   "company": "Google",
+   "type": "manual",
+   "careers": "https://www.google.com/about/careers/applications/jobs/results",
+   "why_manual": "No public JSON feed, and google.com/robots.txt disallows crawling paged job results (/about/careers/applications/jobs/results?page=).",
+   "route": "Search the careers site yourself (Claude in Chrome can read the results page with you, one page at a time). Create a Careers profile and use its saved searches or alerts if your account offers them."
+  },
+  {
+   "company": "Meta",
+   "type": "manual",
+   "careers": "https://www.metacareers.com/jobs",
+   "why_manual": "metacareers.com/robots.txt points to Meta's automated data collection terms, which require written permission for automated collection.",
+   "route": "Search metacareers.com yourself (Claude in Chrome can read the page with you) and use its job alerts if your Meta Careers profile offers them."
+  },
+  {
+   "company": "NVIDIA",
+   "type": "workday",
+   "token": "nvidia",
+   "host": "nvidia.wd5.myworkdayjobs.com",
+   "tenant": "nvidia",
+   "site": "NVIDIAExternalCareerSite",
+   "jobs_seen": 1731,
+   "careers": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite",
+   "terms": "robots.txt on nvidia.wd5.myworkdayjobs.com allows /NVIDIAExternalCareerSite/ and does not disallow the /wday/cxs/ job search the page itself calls. nvidia.com's own terms forbid scrapers on NVIDIA-operated sites, so the tool never touches nvidia.com or jobs.nvidia.com: only this Workday board, one keyword search of 20 at a time."
+  },
+  {
+   "company": "Netflix",
+   "type": "eightfold",
+   "token": "netflix",
+   "host": "explore.jobs.netflix.net",
+   "domain": "netflix.com",
+   "jobs_seen": 154,
+   "careers": "https://explore.jobs.netflix.net/careers",
+   "terms": "explore.jobs.netflix.net/robots.txt explicitly allows /api/apply, the job search this tool reads."
+  },
+  {
+   "company": "Amazon",
+   "type": "manual",
+   "careers": "https://www.amazon.jobs/en/search?base_query=software+engineer",
+   "why_manual": "amazon.jobs links Amazon's Conditions of Use, whose license excludes data mining, robots and similar data gathering tools, so the tool does not call amazon.jobs/en/search.json even though robots.txt allows it.",
+   "route": "Search amazon.jobs yourself (Claude in Chrome can read the results with you) and sign in to amazon.jobs for saved searches and job recommendations."
+  },
+  {
+   "company": "Stripe",
+   "type": "greenhouse",
+   "token": "stripe",
+   "jobs_seen": 727
+  },
+  {
+   "company": "Airbnb",
+   "type": "greenhouse",
+   "token": "airbnb",
+   "jobs_seen": 163
+  },
+  {
+   "company": "Databricks",
+   "type": "greenhouse",
+   "token": "databricks",
+   "jobs_seen": 895
+  },
+  {
+   "company": "Anthropic",
+   "type": "greenhouse",
+   "token": "anthropic",
+   "jobs_seen": 647
+  },
+  {
+   "company": "Figma",
+   "type": "greenhouse",
+   "token": "figma",
+   "jobs_seen": 142
+  },
+  {
+   "company": "Discord",
+   "type": "greenhouse",
+   "token": "discord",
+   "jobs_seen": 48
+  },
+  {
+   "company": "Dropbox",
+   "type": "greenhouse",
+   "token": "dropbox",
+   "jobs_seen": 27
+  },
+  {
+   "company": "Pinterest",
+   "type": "greenhouse",
+   "token": "pinterest",
+   "jobs_seen": 158
+  },
+  {
+   "company": "Coinbase",
+   "type": "greenhouse",
+   "token": "coinbase",
+   "jobs_seen": 224
+  },
+  {
+   "company": "Robinhood",
+   "type": "greenhouse",
+   "token": "robinhood",
+   "jobs_seen": 152
+  },
+  {
+   "company": "Reddit",
+   "type": "greenhouse",
+   "token": "reddit",
+   "jobs_seen": 147
+  },
+  {
+   "company": "Instacart",
+   "type": "greenhouse",
+   "token": "instacart",
+   "jobs_seen": 124
+  },
+  {
+   "company": "Lyft",
+   "type": "greenhouse",
+   "token": "lyft",
+   "jobs_seen": 176
+  },
+  {
+   "company": "Cloudflare",
+   "type": "greenhouse",
+   "token": "cloudflare",
+   "jobs_seen": 442
+  },
+  {
+   "company": "Datadog",
+   "type": "greenhouse",
+   "token": "datadog",
+   "jobs_seen": 437
+  },
+  {
+   "company": "MongoDB",
+   "type": "greenhouse",
+   "token": "mongodb",
+   "jobs_seen": 401
+  },
+  {
+   "company": "Twilio",
+   "type": "greenhouse",
+   "token": "twilio",
+   "jobs_seen": 136
+  },
+  {
+   "company": "Waymo",
+   "type": "greenhouse",
+   "token": "waymo",
+   "jobs_seen": 364
+  },
+  {
+   "company": "Brex",
+   "type": "greenhouse",
+   "token": "brex",
+   "jobs_seen": 261
+  },
+  {
+   "company": "Scale AI",
+   "type": "greenhouse",
+   "token": "scaleai",
+   "jobs_seen": 180
+  },
+  {
+   "company": "GitLab",
+   "type": "greenhouse",
+   "token": "gitlab",
+   "jobs_seen": 216
+  },
+  {
+   "company": "Asana",
+   "type": "greenhouse",
+   "token": "asana",
+   "jobs_seen": 106
+  },
+  {
+   "company": "Duolingo",
+   "type": "greenhouse",
+   "token": "duolingo",
+   "jobs_seen": 59
+  },
+  {
+   "company": "Samsara",
+   "type": "greenhouse",
+   "token": "samsara",
+   "jobs_seen": 260
+  },
+  {
+   "company": "Roblox",
+   "type": "greenhouse",
+   "token": "roblox",
+   "jobs_seen": 260
+  },
+  {
+   "company": "Affirm",
+   "type": "greenhouse",
+   "token": "affirm",
+   "jobs_seen": 204
+  },
+  {
+   "company": "SpaceX",
+   "type": "greenhouse",
+   "token": "spacex",
+   "jobs_seen": 2743
+  },
+  {
+   "company": "Vercel",
+   "type": "greenhouse",
+   "token": "vercel",
+   "jobs_seen": 90
+  },
+  {
+   "company": "Palantir",
+   "type": "lever",
+   "token": "palantir",
+   "jobs_seen": 313
+  },
+  {
+   "company": "Spotify",
+   "type": "lever",
+   "token": "spotify",
+   "jobs_seen": 84
+  },
+  {
+   "company": "OpenAI",
+   "type": "ashby",
+   "token": "openai",
+   "jobs_seen": 802
+  },
+  {
+   "company": "Notion",
+   "type": "ashby",
+   "token": "notion",
+   "jobs_seen": 129
+  },
+  {
+   "company": "Ramp",
+   "type": "ashby",
+   "token": "ramp",
+   "jobs_seen": 164
+  },
+  {
+   "company": "Linear",
+   "type": "ashby",
+   "token": "linear",
+   "jobs_seen": 30
+  },
+  {
+   "company": "Cursor",
+   "type": "ashby",
+   "token": "cursor",
+   "jobs_seen": 134
+  },
+  {
+   "company": "Perplexity",
+   "type": "ashby",
+   "token": "perplexity",
+   "jobs_seen": 130
+  },
+  {
+   "company": "Replit",
+   "type": "ashby",
+   "token": "replit",
+   "jobs_seen": 66
+  },
+  {
+   "company": "Supabase",
+   "type": "ashby",
+   "token": "supabase",
+   "jobs_seen": 54
+  },
+  {
+   "company": "PostHog",
+   "type": "ashby",
+   "token": "posthog",
+   "jobs_seen": 11
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "roles": [
+    {"id": "google-software-engineer", "company": "Google", "title": "Software Engineer", "url": null, "stage": "dreaming", "applied": null, "next_step": null, "next_date": "2026-13-40", "notes": ""},
+    {"id": "google-software-engineer", "company": "Google", "title": "Software Engineer", "url": null, "stage": "saved", "applied": null, "next_step": null, "next_date": null, "notes": ""},
+    {"id": "meta-software-engineer-product", "company": "Meta", "title": "Software Engineer, Product", "url": "metacareers.com/jobs/1", "stage": "applied", "applied": null, "next_step": null, "next_date": null, "notes": ""}
+  ],
+  "contacts": [
+    {"id": "maya-c-google", "name": "Maya C.", "role": "Engineering Manager", "company": "Google", "linkedin": null, "email": "maya.c@example.com", "email_confidence": "published", "source": "guessed from the pattern", "notes": ""},
+    {"id": "jordan-reyes-brightline", "name": "Jordan Reyes", "role": "Software Engineer", "company": "Brightline Labs", "linkedin": null, "email": "not-an-email", "email_confidence": 0.4, "source": null, "notes": ""}
+  ],
+  "threads": [
+    {"contact_id": "nobody-at-all", "role_id": "google-software-engineer", "channel": "email", "messages": [{"date": "2026-10-12", "direction": "sideways", "text": "Hi"}], "status": "sent", "next_followup": null},
+    {"contact_id": "maya-c-google", "role_id": "no-such-role", "channel": "pigeon", "messages": [], "status": "lost", "next_followup": "soon"}
+  ]
+}

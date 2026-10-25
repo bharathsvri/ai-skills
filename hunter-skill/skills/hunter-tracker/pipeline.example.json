@@ -1,0 +1,117 @@
+{
+  "roles": [
+    {
+      "id": "google-software-engineer",
+      "company": "Google",
+      "title": "Software Engineer",
+      "url": null,
+      "stage": "saved",
+      "applied": null,
+      "next_step": "Coffee chat with Maya C. (Google Meet, 10:00)",
+      "next_date": "2026-10-22",
+      "notes": "Google Cloud, Infrastructure. Mountain View, CA (hybrid). Fit 98 from hunter-scout.\n2026-10-11: added as saved\n2026-10-14: application form filled by hunter-apply and saved as a draft, not sent\n2026-10-16: coffee chat booked with Maya C."
+    },
+    {
+      "id": "meta-software-engineer-product",
+      "company": "Meta",
+      "title": "Software Engineer, Product",
+      "url": null,
+      "stage": "saved",
+      "applied": null,
+      "next_step": "Tailor the resume (hunter-resume)",
+      "next_date": "2026-10-19",
+      "notes": "Menlo Park, CA. Fit 95.\n2026-10-11: added as saved"
+    },
+    {
+      "id": "nvidia-deep-learning-software-engineer",
+      "company": "NVIDIA",
+      "title": "Deep Learning Software Engineer",
+      "url": null,
+      "stage": "applied",
+      "applied": "2026-09-30",
+      "next_step": null,
+      "next_date": null,
+      "notes": "Santa Clara, CA. Fit 93.\n2026-09-29: added as saved\n2026-09-30: saved -> applied"
+    },
+    {
+      "id": "netflix-senior-software-engineer",
+      "company": "Netflix",
+      "title": "Senior Software Engineer",
+      "url": null,
+      "stage": "saved",
+      "applied": null,
+      "next_step": null,
+      "next_date": null,
+      "notes": "Los Gatos, CA. Fit 90. Senior title: check the years they ask for before applying.\n2026-09-24: added as saved"
+    },
+    {
+      "id": "amazon-software-development-engineer-ii",
+      "company": "Amazon",
+      "title": "Software Development Engineer II",
+      "url": null,
+      "stage": "screen",
+      "applied": "2026-09-22",
+      "next_step": "Online assessment",
+      "next_date": "2026-10-19",
+      "notes": "Seattle, WA. Fit 88.\n2026-09-22: added as applied\n2026-10-09: applied -> screen"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "maya-c-google",
+      "name": "Maya C.",
+      "role": "Engineering Manager",
+      "company": "Google",
+      "linkedin": null,
+      "email": null,
+      "email_confidence": null,
+      "source": "Fictional hiring manager from the reel. In real use: the posting, the team page or a public LinkedIn search you run yourself.",
+      "notes": "Hiring for Software Engineer, Google Cloud Infrastructure. Public posts: how her team runs design reviews; a panel on mentoring new engineers. University of Michigan alum, like Jordan."
+    }
+  ],
+  "threads": [
+    {
+      "contact_id": "maya-c-google",
+      "role_id": "google-software-engineer",
+      "channel": "email",
+      "messages": [
+        {
+          "date": "2026-10-12",
+          "direction": "out",
+          "text": "Subject: Michigan alum + your design review post\n\nHi Maya,\n\nYour post about how your team runs design reviews hit home. I used the same approach to rebuild our payments API.\n\nI'm a fellow Michigan alum and I'm applying for the Software Engineer role on your team.\n\nWould you be open to a 20 minute coffee chat next week?\n\nJordan"
+        },
+        {
+          "date": "2026-10-15",
+          "direction": "out",
+          "text": "Hi Maya,\n\nFloating this back up in case it got buried. The payments API rebuild cut p99 latency 38%, and the design review format from your post is a big part of why it shipped clean.\n\nIf a 20 minute chat about the Software Engineer role is not possible right now, no worries at all.\n\nJordan"
+        },
+        {
+          "date": "2026-10-16",
+          "direction": "in",
+          "text": "Love that you rebuilt payments that way. Happy to grab a coffee, does Thursday at 10 work?"
+        },
+        {
+          "date": "2026-10-16",
+          "direction": "out",
+          "text": "Hi Maya,\n\nThursday at 10 works great, thank you. I will send a calendar invite with a video link so it is easy to find.\n\nLooking forward to it,\nJordan"
+        }
+      ],
+      "status": "booked",
+      "next_followup": null
+    },
+    {
+      "contact_id": "maya-c-google",
+      "role_id": "google-software-engineer",
+      "channel": "linkedin",
+      "messages": [
+        {
+          "date": "2026-10-12",
+          "direction": "out",
+          "text": "Hi Maya, fellow Michigan alum and backend engineer. Would love to connect."
+        }
+      ],
+      "status": "sent",
+      "next_followup": null
+    }
+  ]
+}

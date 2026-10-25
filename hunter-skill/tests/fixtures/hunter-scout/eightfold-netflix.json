@@ -1,0 +1,73 @@
+{
+ "count": 154,
+ "positions": [
+  {
+   "id": 790317912743,
+   "name": "Software Engineer (L6) - Compute Runtime",
+   "posting_name": "Software Engineer (L6) - Compute Runtime",
+   "locations": [
+    "Remote, United States"
+   ],
+   "location": "Remote, United States",
+   "department": "Engineering",
+   "business_unit": "Streaming",
+   "t_create": 1790294400,
+   "t_update": 1792066370,
+   "canonicalPositionUrl": "https://explore.jobs.netflix.net/careers/job/790317912743",
+   "work_location_option": "onsite",
+   "display_job_id": "JR42215",
+   "type": "ATS"
+  },
+  {
+   "id": 790318581246,
+   "name": "Senior Software Engineer 5  \u2014 Validation & Safety Platform",
+   "posting_name": "Senior Software Engineer 5  \u2014 Validation & Safety Platform",
+   "locations": [
+    "Warsaw,Poland"
+   ],
+   "location": "Warsaw,Poland",
+   "department": "Engineering",
+   "business_unit": "Streaming",
+   "t_create": 1789948800,
+   "t_update": 1789948800,
+   "canonicalPositionUrl": "https://explore.jobs.netflix.net/careers/job/790318581246",
+   "work_location_option": "onsite",
+   "display_job_id": "JR42708",
+   "type": "ATS"
+  },
+  {
+   "id": 790318510397,
+   "name": "Software Engineer L5 - AI Observability & Agent Evaluation",
+   "posting_name": "Software Engineer L5 - AI Observability & Agent Evaluation",
+   "locations": [
+    "Los Gatos,California,United States of America"
+   ],
+   "location": "Los Gatos,California,United States of America",
+   "department": "Engineering",
+   "business_unit": "Streaming",
+   "t_create": 1789516800,
+   "t_update": 1792066370,
+   "canonicalPositionUrl": "https://explore.jobs.netflix.net/careers/job/790318510397",
+   "work_location_option": "onsite",
+   "display_job_id": "JR42630",
+   "type": "ATS"
+  },
+  {
+   "id": 790318469189,
+   "name": "Software Engineer 4 - TV & Web Player Platform",
+   "posting_name": "Software Engineer 4 - TV & Web Player Platform",
+   "locations": [
+    "Los Gatos,California,United States of America"
+   ],
+   "location": "Los Gatos,California,United States of America",
+   "department": "Engineering",
+   "business_unit": "Streaming",
+   "t_create": 1789344000,
+   "t_update": 1789344000,
+   "canonicalPositionUrl": "https://explore.jobs.netflix.net/careers/job/790318469189",
+   "work_location_option": "remote_local",
+   "display_job_id": "JR42566",
+   "type": "ATS"
+  }
+ ]
+}

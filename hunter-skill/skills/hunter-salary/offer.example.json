@@ -1,0 +1,13 @@
+{
+  "_note": "FICTIONAL offer for the reel's story (Jordan Reyes). These numbers are made up for the example and are NOT what Google pays. Replace every number with the ones in your own offer letter.",
+  "company": "Google",
+  "title": "Software Engineer III",
+  "location": "Mountain View, CA",
+  "currency": "USD",
+  "base": 185000,
+  "bonus_target_pct": 15,
+  "sign_on": 20000,
+  "equity": {"grant_value": 200000, "vesting": "even-4", "cliff_months": 12},
+  "raise_pct": 0,
+  "other": {"relocation": 10000}
+}

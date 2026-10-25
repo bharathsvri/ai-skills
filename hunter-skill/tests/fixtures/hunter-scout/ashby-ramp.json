@@ -1,0 +1,241 @@
+{
+ "apiVersion": "1",
+ "jobs": [
+  {
+   "id": "2888b101-b1da-4e53-a02e-1bb9b1b5a951",
+   "title": "Machine Learning Engineer",
+   "department": "Data",
+   "team": "Data",
+   "employmentType": "FullTime",
+   "location": "New York, NY (HQ)",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [
+    {
+     "location": "Remote (US)",
+     "address": {
+      "postalAddress": {
+       "addressCountry": "United States"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-09-23T19:39:11.015+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Hybrid",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "NY",
+     "addressCountry": "USA",
+     "addressLocality": "New York City"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/ramp/2888b101-b1da-4e53-a02e-1bb9b1b5a951",
+   "applyUrl": "https://jobs.ashbyhq.com/ramp/2888b101-b1da-4e53-a02e-1bb9b1b5a951/application",
+   "descriptionPlain": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you\u2019ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.\n\nThe median Ramp customer saves 5% and grows revenue 16% in their first year \u2013 far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.\n\nIf you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.\n\n\n\n\nABOUT THE ROLE\n\nWe\u2019re seeking someone to lead the future of fraud machine learning at Ramp. In this role, you will help build core machine learning models, design data architectures, and set strategic roadmaps to help Ramp mitigate fraud-related threats while minimizing the friction experience by legitimate users. You will partner closely with product and engineering counterparts across model design, implementation, execution, and analysis.\n\n\n\n\nWHAT YOU\u2019LL DO\n\n - Employ statistical and machine learning techniques on large datasets to discover patterns of fraud, platform abuse, and identity theft\n\n - Prototype and productionize machine learning models and rules-based systems to protect Ramp and its users from fraud\n\n - Partner closely with Fraud Engineering and Data Platform teams to augment and leverage data across first and third party sources",
+   "compensation": {
+    "compensationTierSummary": "$200K \u2013 $330K \u2022 Offers Equity",
+    "scrapeableCompensationSalarySummary": "$200K - $330K",
+    "compensationTiers": [
+     {
+      "id": "75a7b810-0b8c-41ad-9543-bbdd8fea0eeb",
+      "tierSummary": "Estimated Base Salary $200K \u2013 $330K \u2022 Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "e710b0ac-d763-408d-ad98-deb774795f83",
+        "summary": "Offers Equity",
+        "compensationType": "EquityCashValue",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": null,
+        "maxValue": null
+       },
+       {
+        "id": "b1d6537f-2f46-468d-8f17-4c8e068bca81",
+        "summary": "Estimated Base Salary $200K \u2013 $330K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 200000,
+        "maxValue": 330000
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "EquityCashValue",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 200000,
+      "maxValue": 330000
+     }
+    ]
+   }
+  },
+  {
+   "id": "428f41e2-48e8-409d-b5e3-8053f7fc7a27",
+   "title": "Software Engineer, Backend, Growth",
+   "department": "Engineering",
+   "team": "Growth Engineering",
+   "employmentType": "FullTime",
+   "location": "New York, NY (HQ)",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [
+    {
+     "location": "San Francisco, CA",
+     "address": {
+      "postalAddress": {
+       "addressRegion": "California ",
+       "addressCountry": "USA",
+       "addressLocality": "San Fransisco"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-05-13T23:29:57.643+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Hybrid",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "NY",
+     "addressCountry": "USA",
+     "addressLocality": "New York City"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/ramp/428f41e2-48e8-409d-b5e3-8053f7fc7a27",
+   "applyUrl": "https://jobs.ashbyhq.com/ramp/428f41e2-48e8-409d-b5e3-8053f7fc7a27/application",
+   "descriptionPlain": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you\u2019ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.\n\nThe median Ramp customer saves 5% and grows revenue 16% in their first year \u2013 far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.\n\nIf you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.\n\n\n\nRamp is building an AI-native platform that changes how Go-to-Market and Product Growth teams create, launch, and improve customer-facing experiences. We are looking for a product-minded backend engineer to help build the infrastructure and services that power modern growth and marketing at Ramp.\n\nThe next chapter for this team is to build marketing-led products: intelligent tools that turn strategy into execution, automate complex workflows, and help teams operate across channels with dramatically more leverage.\n\nThe team will build across creative production, lifecycle marketing, paid media, account-based marketing, experimentation, incentives, and cross-channel orchestration. Examples include AI-powered systems that produce on-brand campaign assets, automate complex marketing workflows, coordinate audiences and execution, and deliver personal",
+   "compensation": {
+    "compensationTierSummary": "$200K \u2013 $310K \u2022 Offers Equity",
+    "scrapeableCompensationSalarySummary": "$200K - $310K",
+    "compensationTiers": [
+     {
+      "id": "24b7c0d1-a1af-4a5a-8df5-030c3a4be4a7",
+      "tierSummary": "$200K \u2013 $310K \u2022 Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "f716bdb9-a1bd-47d1-864f-a3b3b9ef0e6b",
+        "summary": "Offers Equity",
+        "compensationType": "EquityPercentage",
+        "interval": "NONE",
+        "currencyCode": null,
+        "minValue": null,
+        "maxValue": null
+       },
+       {
+        "id": "c69718ad-45d9-46f4-8271-1a7f6c093b0c",
+        "summary": "$200K \u2013 $310K",
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 200000,
+        "maxValue": 310000
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "EquityPercentage",
+      "interval": "NONE",
+      "currencyCode": null,
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "compensationType": "Salary",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": 200000,
+      "maxValue": 310000
+     }
+    ]
+   }
+  },
+  {
+   "id": "acf6b28d-767f-483f-8ff2-114620cd7e04",
+   "title": "Software Engineering Intern, Backend",
+   "department": "Engineering",
+   "team": "Emerging Talent - SWE",
+   "employmentType": "Intern",
+   "location": "New York, NY (HQ)",
+   "shouldDisplayCompensationOnJobPostings": true,
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-09T01:01:29.953+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "NY",
+     "addressCountry": "USA",
+     "addressLocality": "New York City"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/ramp/acf6b28d-767f-483f-8ff2-114620cd7e04",
+   "applyUrl": "https://jobs.ashbyhq.com/ramp/acf6b28d-767f-483f-8ff2-114620cd7e04/application",
+   "descriptionPlain": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you\u2019ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.\n\nThe median Ramp customer saves 5% and grows revenue 16% in their first year \u2013 far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.\n\nIf you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.\n\n\n\nExplore our Engineering Blog https://builders.ramp.com & Emerging Talent https://builders.ramp.com/emerging-talent Blog to learn more about how we build at Ramp and what it\u2019s like to start your career here.\n\n\n\n\nABOUT THE ROLE\n\nRamp is, at its core, an engineering company. We\u2019re looking for backend engineering interns (12 or 16-week co-ops) excited to solve challenging technical problems and ship products used by real customers.\n\nYou\u2019ll work alongside experienced engineers and own meaningful projects from inception to production. We value strong technical fundamentals, high ownership, and people who learn quickly, whether or not they\u2019re familiar with our stack.\n\n\n\n\nWHAT YOU\u2019LL DO\n\n - Build performant, reliable, and scalable systems powering Ramp\u2019s products\n\n - Own meaningful projects from design through launch\n\n - Solve problems across areas like",
+   "compensation": {
+    "compensationTierSummary": "$12.5K per month \u2022 Offers Equity",
+    "scrapeableCompensationSalarySummary": null,
+    "compensationTiers": [
+     {
+      "id": "f470fede-a650-4d75-b61b-bde109e4ad5c",
+      "tierSummary": "$12.5K per month \u2022 Offers Equity",
+      "title": null,
+      "additionalInformation": null,
+      "components": [
+       {
+        "id": "5fdfed74-7cb3-4be5-ac59-ced5520ff37f",
+        "summary": "Offers Equity",
+        "compensationType": "EquityCashValue",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": null,
+        "maxValue": null
+       },
+       {
+        "id": "0143037e-e907-409c-82de-ad88a1ce9be2",
+        "summary": "$12.5K per month",
+        "compensationType": "Salary",
+        "interval": "1 MONTH",
+        "currencyCode": "USD",
+        "minValue": 12500,
+        "maxValue": 12500
+       }
+      ]
+     }
+    ],
+    "summaryComponents": [
+     {
+      "compensationType": "EquityCashValue",
+      "interval": "1 YEAR",
+      "currencyCode": "USD",
+      "minValue": null,
+      "maxValue": null
+     },
+     {
+      "compensationType": "Salary",
+      "interval": "1 MONTH",
+      "currencyCode": "USD",
+      "minValue": 12500,
+      "maxValue": 12500
+     }
+    ]
+   }
+  }
+ ]
+}

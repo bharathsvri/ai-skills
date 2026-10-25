@@ -1,0 +1,106 @@
+{
+ "jobs": [
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8697883002",
+   "internal_job_id": 6475507002,
+   "location": {
+    "name": "San Francisco Bay Area"
+   },
+   "id": 8697883002,
+   "updated_at": "2026-09-22T18:29:59-04:00",
+   "requisition_id": "R-107372",
+   "title": "Senior Software Engineer, Ads",
+   "company_name": "Discord",
+   "first_published": "2026-08-12T12:44:44-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;We are looking for a highly technical, creative, hands-on, and impact-focused Senior Software Engineer to join our growing Ads team.&lt;/p&gt;\n&lt;p&gt;Our team is revolutionizing the way users interact with our platform through innovative ad formats (including &lt;a href=&quot;https://discord.com/quests&quot;&gt;Quests&lt;/a&gt;). We are driven by a passion for delivering exceptional user experiences while scaling our platform to new heights. These products enable us to generate revenue by building a win-win-win suite of distribution tools for game developers, players, and Discord. Join us in shaping the future of digital advertising and marketplace interactions!&lt;/p&gt;\n&lt;p&gt;To learn more about Discord Engineering, take a look at our&amp;nbsp;&lt;a href=&quot;https://blog.discord.com/tagged/engineering&quot;&gt;engineering blog!&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you&#x27;ll be doing&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Design, build and maintain new Ads products and infrastructure from the backend to frontend. Collaborate with both engineers on and off the team - from Revenue Infrastructure, to Core Tech, to Machine Learning, to Data Science.&lt;/li&gt;\n&lt;li&gt;Be a strategic partner with engineering, product, and cross functional leadership in designing, developing and scaling digital advertising features that drive revenue growth and enhance user engagement.&lt;/li&gt;\n&lt;li&gt;Architect simple and maintainable systems to enable us to launch quickly and iterate while sustaining a high product and technical quality bar.&lt;/li&gt;\n&lt;li&gt;Model strong ownership by acting autonomously when possible and looping in others to build confidence on critical questions. Introduce coding and operational best practices to the team; always be learning &amp;amp; teaching.&lt;/li&gt;\n&lt;li&gt;Own projects end to end \u2014 you\u2019ll be responsible for working with Product and other stakeholders to refine requirements, creating technical designs and specs, implementing changes, and seeing projects through to launch and maintenance.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What you should have&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;5+ years of experience&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;A focus on impact.&lt;/strong&gt; You have a sharp eye for what changes can bring a product from good to great. You collaborate closely with product managers, designers, analysts, and other engineers to define great solutions to business problems.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;A sense of ownership.&lt;/strong&gt; You believe in solving a problem completely rather than simply shipping a solution. You operate autonomously and follow through on your commitments.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;A growth mindset.&lt;/strong&gt; You view mistakes as learning opportunities and build upon your successes. You challenge yourself and those around you to continuously improve.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;A love of mentorship.&lt;/strong&gt; Helping fellow engineers, providing feedback and guidance on system architecture, API design, data modeling, and tradeoffs.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Bonus Points&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Expertise with Python and/or Rust, Typescript, React, React Native&lt;/li&gt;\n&lt;li&gt;Experience in the ad space&lt;/li&gt;\n&lt;li&gt;Familiarity with experimentation and analysis&lt;/li&gt;\n&lt;li&gt;Contributions to open-source projects&lt;/li&gt;\n&lt;li&gt;Interest or passion for the Discord platform&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;The US base salary range for this full-time position is&amp;nbsp;&lt;span class=&quot;notion-enable-hover&quot; data-token-index=&quot;0&quot;&gt;$196,000 to $245,000 &lt;/span&gt;+ equity + benefits. Our salary ranges are determined by role and level. Within the range, individual pay is determined by additional factors, including job-related skills, experience, and relevant education or training. Please note that the compensation details listed in US role postings reflect the base salary only, and do not include equity, or benefits.&lt;br&gt;&lt;/em&gt;&lt;/p&gt;",
+   "departments": [
+    {
+     "id": 4074054002,
+     "name": "Product Engineering",
+     "child_ids": [],
+     "parent_id": 4094266002
+    }
+   ],
+   "offices": [
+    {
+     "id": 4000383002,
+     "name": "San Francisco, CA",
+     "location": "San Francisco, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ]
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8856467002",
+   "internal_job_id": 6545415002,
+   "location": {
+    "name": "San Francisco Bay Area"
+   },
+   "id": 8856467002,
+   "updated_at": "2026-10-07T11:27:54-04:00",
+   "requisition_id": "R-107444",
+   "title": "Senior Full-Stack Software Engineer, Engagement",
+   "company_name": "Discord",
+   "first_published": "2026-10-01T14:55:39-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;Discord is about giving people the power to create space to find belonging in their lives. We want to make it easier for you to talk regularly with the people you care about. We want you to build genuine relationships with your friends and communities close to home or around the world. Original, reliable, playful, and relatable. These are the values that connect our users and our employees at Discord.&lt;/p&gt;\n&lt;p&gt;We&#x27;re looking for a highly motivated, mission-focused Senior Engineer to join our Engagement team. Engagement is responsible for improving the core value of Discord, including chatting, hanging out with friends, and expressing yourself. We work on improving core features like messaging, voice chat, user profiles, and app navigation. You will work across the full stack to build delightful and impactful features that are focused on making Discord the best place to play games and hangout with your friends online.&lt;/p&gt;\n&lt;p&gt;We\u2019re looking for engineers that have strong product sense and are fearless in jumping between technical stacks. You\u2019ll be working with highly experienced engineering peers and cross functional partners.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You&#x27;ll Be Doing&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Building delightful products with a very high bar for quality, performance, and a focus on impact&lt;/li&gt;\n&lt;li&gt;Working with Product, Design, Data Science, UX Research, and Marketing to shape the team\u2019s vision and roadmap&lt;/li&gt;\n&lt;li&gt;Helping find the right solutions that balance delight, speed of delivery, and impact by collaborating with design and product partners&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You Will Thrive In This Role If&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;You have 5+ years of experience as a Software Engineer&lt;/li&gt;\n&lt;li&gt;You have specialized in building consumer-facing products on web and mobile platforms&lt;/li&gt;\n&lt;li&gt;You have developed domain expertise in either web or mobile front-end (or both)&lt;/li&gt;\n&lt;li&gt;You are eager to learn new languages and frameworks, and are comfortable working across the full stack when needed&lt;/li&gt;\n&lt;li&gt;You have worked in a product team with clear metrics goals and had a measurable positive impact on customers&lt;/li&gt;\n&lt;li&gt;You have a strong product sense and take pride in sweating the details of great UX&lt;/li&gt;\n&lt;li&gt;You are motivated to help your team members succeed and grow and learn from each other through empathetic feedback&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Bonus Points&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;You are a Discord user, and understand the core features and flow of Discord communications&lt;/li&gt;\n&lt;li&gt;You\u2019ve worked on React Native products&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;The US base salary range for this full-time position is &lt;span class=&quot;notion-enable-hover&quot; data-token-index=&quot;0&quot;&gt;$196,000 to $245,000&amp;nbsp;&lt;/span&gt;+ equity + benefits. Our salary ranges are determined by role and level. Within the range, individual pay is determined by additional factors, including job-related skills, experience, and relevant education or training. Please note that the compensation details listed in US role postings reflect the base salary only, and do not include equity, or benefits.&lt;br&gt;&lt;/em&gt;&lt;/p&gt;",
+   "departments": [
+    {
+     "id": 4074054002,
+     "name": "Product Engineering",
+     "child_ids": [],
+     "parent_id": 4094266002
+    }
+   ],
+   "offices": [
+    {
+     "id": 4000383002,
+     "name": "San Francisco, CA",
+     "location": "San Francisco, California, United States",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ]
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/8806482002",
+   "internal_job_id": 6524134002,
+   "location": {
+    "name": "San Francisco Bay Area"
+   },
+   "id": 8806482002,
+   "updated_at": "2026-10-13T16:45:36-04:00",
+   "requisition_id": "R-107406",
+   "title": "Commercial Policy Lead",
+   "company_name": "Discord",
+   "first_published": "2026-09-15T12:52:11-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;We are seeking a strategic Commercial Policy Lead to shape Discord&#x27;s approach to monetization and revenue products. As a key member of the Product Policy organization, you will develop and implement advertising and commerce policies that enable Discord&#x27;s business while maintaining platform safety and user trust. This role requires a deep understanding of digital commerce, creator economies, and advertising ecosystems, with the ability to balance business objectives with responsible platform practices.&lt;/p&gt;\n&lt;p&gt;Please note: This role involves regular exposure to potentially disturbing content, including violence, hate speech, and other harmful material.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you&#x27;ll be doing&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Lead policy development for Discord\u2019s ads and/or commerce business. Flex into policy work for Discords other products as needed.&lt;/li&gt;\n&lt;li&gt;Create frameworks that enable sustainable business growth while protecting users from deceptive practices, fraud, and economic harm.&lt;/li&gt;\n&lt;li&gt;Partner with Legal and Compliance to ensure policies meet regulatory requirements across global markets.&lt;/li&gt;\n&lt;li&gt;Develop clear guidelines for acceptable advertising and commerce.&lt;/li&gt;\n&lt;li&gt;Leverage AI tools and data analytics to identify emerging commercial risks and policy gaps.&lt;/li&gt;\n&lt;li&gt;Represent Discord externally to key business partners, advertisers and other external industry organizations parties where needed.&lt;/li&gt;\n&lt;li&gt;Translate complex policy requirements into actionable business guidelines that sales and product teams can implement effectively.&lt;/li&gt;\n&lt;li&gt;Provide policy guidance to product teams throughout the development lifecycle.&lt;/li&gt;\n&lt;li&gt;Collaborate with Trust &amp;amp; Safety to ensure commercial policies can be effectively enforced at scale with AI and human review.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What you should have&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;5+ years of experience in advertising policy, platform monetization or related roles within technology companies.&lt;/li&gt;\n&lt;li&gt;Proven experience with at least two areas: digital advertising, third party data providers, brand safety and suitability, subscription business models or developer APIs/SDKs.&lt;/li&gt;\n&lt;li&gt;Experience using AI in day-to-day projects and workflows.&lt;/li&gt;\n&lt;li&gt;Comfort and sound decision-making in ambiguous and evolving situations.&lt;/li&gt;\n&lt;li&gt;Experience working with revenue teams and understanding business metrics/KPIs.&lt;/li&gt;\n&lt;li&gt;Strong analytical skills with ability to use data to inform policy decisions.&lt;/li&gt;\n&lt;li&gt;Excellent communication skills for both technical and business stakeholders.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;Candidates must reside in or be willing to relocate to the San Francisco Bay Area (Alameda, Contra Costa, Marin, Napa, San Francisco, San Mateo, Santa Clara, Solano, and Sonoma counties). Relocation assistance may be available. &lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;The US base salary range for this full-time position is $192,000 to $216,000 + equity + benefits. Our salary ranges are determined by role and level. Within the range, individual pay is determined by additional factors, including job-related skills, experience, and relevant education or training. Please note that the compensation details listed in US role postings reflect the base salary only, and do not include equity, or benefits.&lt;br&gt;&lt;/em&gt;&lt;/p&gt;",
+   "departments": [
+    {
+     "id": 4054683002,
+     "name": "Policy",
+     "child_ids": [],
+     "parent_id": 4094263002
+    }
+   ],
+   "offices": [
+    {
+     "id": 4082816002,
+     "name": "Remote (U.S.)",
+     "location": null,
+     "child_ids": [],
+     "parent_id": null
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "total": 3
+ }
+}

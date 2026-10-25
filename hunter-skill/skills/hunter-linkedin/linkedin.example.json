@@ -1,0 +1,53 @@
+{
+ "_note": "Example for the reel's FICTIONAL candidate Jordan Reyes. 'current' is the profile as it is today, 'draft' the rewrite. Copy to hunter/linkedin.json and use the user's real profile: rewrite and reorder what is true, never add what is not.",
+ "current": {
+  "headline": "Software Engineer at Brightline Labs",
+  "about": "",
+  "skills": [
+   "Java",
+   "Python",
+   "SQL",
+   "Git",
+   "Agile",
+   "Microsoft Office"
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "company": "Brightline Labs",
+    "description": "Worked on backend services. Helped with machine learning projects. Responsible for on-call."
+   }
+  ]
+ },
+ "draft": {
+  "headline": "Software Engineer · Distributed systems, ML infrastructure and fast, reliable APIs",
+  "about": "I build backend systems that stay fast under load. At Brightline Labs I rebuilt our payments API in Go, cutting p99 latency 38% across 4M requests a day, and shipped an ML ranking service that lifted search click-through 12%. I also led on-call for 9 services and cut pages 60% with automated runbooks.\n\nWhat I work in every day: Go, Python and Java; gRPC and REST APIs; PostgreSQL and Kafka; Kubernetes on Google Cloud and AWS. I care about clear design reviews, good observability and systems the on-call engineer can trust at 3 a.m.\n\nI studied Computer Science at the University of Michigan. I'm looking for a Software Engineer role on infrastructure or distributed systems at a team that runs at scale.",
+  "skills": [
+   "Go",
+   "Python",
+   "Java",
+   "Distributed Systems",
+   "System Design",
+   "APIs",
+   "gRPC",
+   "Kubernetes",
+   "PostgreSQL",
+   "Kafka",
+   "Google Cloud Platform (GCP)",
+   "Amazon Web Services (AWS)",
+   "Machine Learning",
+   "Data Structures",
+   "Algorithms",
+   "Observability",
+   "SQL",
+   "Git"
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "company": "Brightline Labs",
+    "description": "Rebuilt the payments API in Go, cutting p99 latency 38% across 4M requests a day. Shipped an ML ranking service that lifted search click-through 12%. Led on-call for 9 services and cut pages 60% with automated runbooks."
+   }
+  ]
+ }
+}

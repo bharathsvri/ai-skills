@@ -1,0 +1,67 @@
+{
+  "version": "1.0",
+  "total": 100,
+  "note": "Twelve items. Score each honestly - a generous score helps nobody. Most first-pass profiles land in the 40s. Limits checked against X's help pages in September 2026: display name 50 characters, username 15, bio 160, header 1500x500, profile photo 400x400.",
+  "items": [
+    {
+      "id": "bio_open",
+      "points": 14,
+      "full_marks": "The bio's first line says who you help and what changes for them, in plain words. Not a list of titles, not 'passionate about', not a string of emoji."
+    },
+    {
+      "id": "bio_proof",
+      "points": 8,
+      "full_marks": "One checkable piece of proof in the bio: a number, a thing you built, a name people know. One, not four."
+    },
+    {
+      "id": "pinned_post",
+      "points": 14,
+      "full_marks": "A pinned post exists, is one of your best-performing posts or a clear 'start here', and is recent enough that it is still true. A new visitor reads this before any of your other posts."
+    },
+    {
+      "id": "display_name",
+      "points": 6,
+      "full_marks": "Your real name, optionally plus one word of what you do. Under 50 characters. No emoji wall, no 'DM for collab'."
+    },
+    {
+      "id": "username",
+      "points": 4,
+      "full_marks": "Readable, spellable after hearing it once, and the same handle you use elsewhere if you can get it."
+    },
+    {
+      "id": "photo",
+      "points": 8,
+      "full_marks": "Your face, filling most of the circle, readable at 40px in a reply thread. High contrast against the background. Shot in the last two years."
+    },
+    {
+      "id": "header",
+      "points": 8,
+      "full_marks": "1500x500 with one line of positioning or proof, nothing important in the bottom-left where the profile photo covers it. Not the default grey, not a stock skyline."
+    },
+    {
+      "id": "link",
+      "points": 6,
+      "full_marks": "The website field goes to the one place you want a new follower to go next, and that page matches the promise in the bio."
+    },
+    {
+      "id": "topic_consistency",
+      "points": 12,
+      "full_marks": "Your last 10 posts are recognisably about what the bio says you are about. A visitor who likes one post can predict the next."
+    },
+    {
+      "id": "reply_presence",
+      "points": 10,
+      "full_marks": "The Replies tab shows real replies to other accounts in your niche in the last week. On X, that tab is your networking in public."
+    },
+    {
+      "id": "cadence",
+      "points": 5,
+      "full_marks": "Posted in the last three days, and on most weeks for the last month. Not necessarily daily."
+    },
+    {
+      "id": "bio_voice",
+      "points": 5,
+      "full_marks": "The bio sounds like a person. No 'visionary', 'thought leader', 'serial entrepreneur', 'building in public' as the whole identity, no three hashtags."
+    }
+  ]
+}

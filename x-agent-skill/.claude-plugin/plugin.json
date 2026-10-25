@@ -1,0 +1,10 @@
+{
+  "name": "x-agent",
+  "description": "Eleven Claude skills that run an X account: posts off 21 hook formulas with a scored hook, a character counter that counts the way X does, threads cut to fit, replies, a profile score, the weekly plan read against X's own published ranking weights, DMs, an audit of your analytics export, a humanizer, and a virality engine that finds the most outperforming posts in your niche and recreates them in your voice.",
+  "version": "1.0.0",
+  "author": { "name": "Jake Schincariol", "url": "https://opusjake.ai" },
+  "homepage": "https://github.com/Jakeschincariol/x-agent-skill",
+  "repository": "https://github.com/Jakeschincariol/x-agent-skill",
+  "license": "MIT",
+  "keywords": ["x", "twitter", "threads", "content", "writing", "humanizer", "social", "marketing"]
+}

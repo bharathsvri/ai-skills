@@ -1,0 +1,33 @@
+{
+  "_note": "Polite follow-up templates for hunter-followup. Placeholders in {braces} are filled from hunter/pipeline.json and hunter/profile.json; anything left as [fill: ...] must be written by you (one specific, true line). Every draft is shown to you first and goes out only after your yes.",
+  "nudge-1": {
+    "use": "First follow-up on an outreach thread with no reply, 3 days after the first message (the reel: Day 1 email, Day 4 follow-up). Short, adds one new specific thing, easy to ignore.",
+    "subject": "Re: {subject}",
+    "body": "Hi {first},\n\nFloating this back up in case it got buried. {hook}\n\nIf a 20 minute chat about the {role} role is not possible right now, no worries at all.\n\n{my_first}"
+  },
+  "nudge-2": {
+    "use": "Second and LAST follow-up, about a week after the first one. Says it is the last note. After this, nothing more is sent.",
+    "subject": "Re: {subject}",
+    "body": "Hi {first},\n\nOne last note from me so I am not cluttering your inbox. {hook}\n\nIf the timing is wrong, I completely understand, and thank you for reading.\n\n{my_first}"
+  },
+  "application-check-in": {
+    "use": "A check-in on an application with no news, at least 10 days after applying, to a contact you already have at that company. One message, not a series.",
+    "subject": "{role} application, {my_name}",
+    "body": "Hi {first},\n\nI applied for the {role} role at {company} on {applied} and wanted to say how much I would like to work on it. {hook}\n\nIf there is anything else that would help the team, I am happy to send it.\n\nThank you,\n{my_name}"
+  },
+  "thank-you": {
+    "use": "Thank-you note within 24 hours of an interview or screen. One specific moment from the conversation, one line on fit, no new asks.",
+    "subject": "Thank you, {role} interview",
+    "body": "Hi {first},\n\nThank you for your time today. I enjoyed talking about [fill: one specific thing you discussed]. {hook}\n\nI am even more excited about the {role} role at {company} after our conversation.\n\nBest,\n{my_first}"
+  },
+  "after-coffee": {
+    "use": "Thank-you after a coffee chat with a hiring manager or a warm intro. Thanks them, names one thing you will act on, and only then mentions the application.",
+    "subject": "Thank you for the coffee chat",
+    "body": "Hi {first},\n\nThank you for making time for coffee. Your point about [fill: one thing they said] was really useful, and I am going to [fill: what you will do with it].\n\nI have just applied for the {role} role on your team. If it is ever helpful, I am glad to share more about [fill: the project you talked about].\n\nThanks again,\n{my_first}"
+  },
+  "confirm-time": {
+    "use": "Reply when they offer a time. Confirms it, says who sends the invite, nothing else. The calendar invite goes out only with your approval.",
+    "subject": "Re: {subject}",
+    "body": "Hi {first},\n\n{day} works great, thank you. I will send a calendar invite with a video link so it is easy to find.\n\nLooking forward to it,\n{my_first}"
+  }
+}

@@ -1,0 +1,55 @@
+[
+ "First Name",
+ "Last Name",
+ "Email",
+ "Phone",
+ "Resume/CV",
+ {
+  "label": "LinkedIn Profile",
+  "required": false
+ },
+ {
+  "label": "Are you legally authorized to work in the United States?",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "required": true
+ },
+ {
+  "label": "Will you now or in the future require sponsorship for employment visa status?",
+  "options": [
+   "Yes",
+   "No"
+  ],
+  "required": true
+ },
+ "What are your salary expectations?",
+ {
+  "label": "Are you open to relocation?",
+  "options": [
+   "Yes",
+   "No"
+  ]
+ },
+ "Why do you want to work at Google?",
+ {
+  "label": "Gender",
+  "options": [
+   "Male",
+   "Female",
+   "Decline to self-identify"
+  ]
+ },
+ {
+  "label": "Are you a protected veteran?",
+  "options": [
+   "I am a protected veteran",
+   "I am not a protected veteran",
+   "I don't wish to answer"
+  ]
+ },
+ "What is your current salary?",
+ "Have you ever worked for Google before?",
+ "Do you have a non-compete agreement?"
+]

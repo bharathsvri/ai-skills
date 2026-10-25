@@ -1,0 +1,239 @@
+{
+ "_note": "Interview loops for the five companies in the reel. 'official' notes come from the company's OWN hiring and interview-prep pages (url in source), read on 2026-10-15. Anything else is marked community-reported: candidate reports and prep sites, not confirmed by the company. Loops change by team, level and year, so the recruiter's description always wins. Several of these companies forbid AI tools during interviews: prepare with Claude, never use it in the interview.",
+ "verified": "2026-10-15",
+ "companies": {
+  "Google": {
+   "reel_summary": "Algorithmic coding, system design and a behavioral round for \"Googleyness\"",
+   "prep_pages": [
+    {
+     "title": "Our hiring process",
+     "url": "https://www.google.com/about/careers/applications/how-we-hire/"
+    },
+    {
+     "title": "Interviewing at Google: best practices, advice and tips",
+     "url": "https://www.google.com/about/careers/applications/interview-tips/"
+    },
+    {
+     "title": "Build your future: technical learning resources (techdevguide.withgoogle.com redirects here)",
+     "url": "https://www.google.com/about/careers/applications/buildyourfuture/resources/"
+    }
+   ],
+   "notes": [
+    {
+     "text": "Steps: apply online; you may take the Google Hiring Assessment (workstyle) and role-related assessments such as a coding exercise; one or two shorter recruiter conversations by phone or video; sometimes a small project; then a panel of interviews over video or in person. Expect roughly 6 to 8 weeks.",
+     "kind": "official",
+     "source": "https://www.google.com/about/careers/applications/how-we-hire/"
+    },
+    {
+     "text": "Structured interviewing: every candidate for a role is scored on the same clear rubrics, with role-related, open-ended questions and no brainteasers.",
+     "kind": "official",
+     "source": "https://www.google.com/about/careers/applications/how-we-hire/"
+    },
+    {
+     "text": "For software engineering, Google's hiring page points to its own prep videos on coding interviews and systems design interviews.",
+     "kind": "official",
+     "source": "https://www.google.com/about/careers/applications/how-we-hire/"
+    },
+    {
+     "text": "Behavioral answers should be specific examples; Google suggests the STAR approach (Situation, Task, Activity, Result) and a broad library of examples.",
+     "kind": "official",
+     "source": "https://www.google.com/about/careers/applications/interview-tips/"
+    },
+    {
+     "text": "AI tools are not permitted during Google interviews.",
+     "kind": "official",
+     "source": "https://www.google.com/about/careers/applications/how-we-hire/"
+    },
+    {
+     "text": "In-person interviews are back for some roles; initial interviews are often virtual. Outcomes can take several weeks.",
+     "kind": "official",
+     "source": "https://www.google.com/about/careers/applications/interview-tips/"
+    },
+    {
+     "text": "Software engineer loops are commonly described as two or more algorithmic coding rounds, a system design round for experienced candidates, and a behavioral round often called Googleyness and Leadership.",
+     "kind": "community-reported",
+     "source": "community-reported"
+    }
+   ]
+  },
+  "Meta": {
+   "reel_summary": "High-pressure live coding and deep system architecture reviews",
+   "prep_pages": [
+    {
+     "title": "Preparing for your technical screen (Software Engineering)",
+     "url": "https://www.metacareers.com/swe-prep-techscreen/"
+    },
+    {
+     "title": "Preparing for your full loop interview (links the Full Loop Interview Guide PDF)",
+     "url": "https://www.metacareers.com/swe-prep-onsite/"
+    }
+   ],
+   "notes": [
+    {
+     "text": "Technical screen: a 45-minute conversation with an engineer.",
+     "kind": "official",
+     "source": "https://www.metacareers.com/swe-prep-techscreen/"
+    },
+    {
+     "text": "Full loop: 4 to 6 interviews of 45 minutes each, covering coding, design and behavioral.",
+     "kind": "official",
+     "source": "https://www.metacareers.com/swe-prep-onsite/"
+    },
+    {
+     "text": "Coding: expect about two problems in about 40 minutes, written without a compiler; scored on communication, problem solving, coding and verification. The guide says Meta does not ask dynamic programming questions.",
+     "kind": "official",
+     "source": "https://www.metacareers.com/swe-prep-onsite/"
+    },
+    {
+     "text": "Design: 45 minutes, either Systems Design (distributed systems, scalability, performance) or Product Architectural Design (API design, usability), depending on the role.",
+     "kind": "official",
+     "source": "https://www.metacareers.com/swe-prep-onsite/"
+    },
+    {
+     "text": "Behavioral: 45 minutes on resolving conflict, growing continuously, embracing ambiguity, driving results and communicating effectively; the guide suggests the STAR method.",
+     "kind": "official",
+     "source": "https://www.metacareers.com/swe-prep-onsite/"
+    },
+    {
+     "text": "No unauthorized outside assistance during interviews, including AI tools like ChatGPT; you may be asked to share your screen over Zoom.",
+     "kind": "official",
+     "source": "https://www.metacareers.com/swe-prep-onsite/"
+    },
+    {
+     "text": "Some candidates report an AI-assisted coding round replacing one coding round in recent loops. Confirm with your recruiter.",
+     "kind": "community-reported",
+     "source": "community-reported"
+    }
+   ]
+  },
+  "NVIDIA": {
+   "reel_summary": "Advanced technical depth: AI, hardware design and complex problem-solving",
+   "prep_pages": [
+    {
+     "title": "How we hire",
+     "url": "https://www.nvidia.com/en-us/about-nvidia/careers/how-we-hire/"
+    }
+   ],
+   "notes": [
+    {
+     "text": "NVIDIA suggests applying to the three to five roles that best fit your background rather than many.",
+     "kind": "official",
+     "source": "https://www.nvidia.com/en-us/about-nvidia/careers/how-we-hire/"
+    },
+    {
+     "text": "Interviews are one-on-one, small group or panel, usually 30 to 60 minutes each, by phone, video or in person; an onsite, in-person interview is required before an offer can be considered.",
+     "kind": "official",
+     "source": "https://www.nvidia.com/en-us/about-nvidia/careers/how-we-hire/"
+    },
+    {
+     "text": "Technical candidates may complete a coding exercise, usually on HackerRank, on a whiteboard or an NVIDIA-provided laptop.",
+     "kind": "official",
+     "source": "https://www.nvidia.com/en-us/about-nvidia/careers/how-we-hire/"
+    },
+    {
+     "text": "Using unapproved outside tools such as ChatGPT during interviews disqualifies the candidacy.",
+     "kind": "official",
+     "source": "https://www.nvidia.com/en-us/about-nvidia/careers/how-we-hire/"
+    },
+    {
+     "text": "If you interview with several teams, feedback may be shared across them. A referral comes from an NVIDIA employee through the internal job board, before you apply.",
+     "kind": "official",
+     "source": "https://www.nvidia.com/en-us/about-nvidia/careers/how-we-hire/"
+    },
+    {
+     "text": "Technical rounds are often described as going deep on C++, Python, computer architecture, parallel programming and GPU or CUDA topics for systems roles.",
+     "kind": "community-reported",
+     "source": "community-reported"
+    }
+   ]
+  },
+  "Netflix": {
+   "reel_summary": "A notoriously high bar: culture fit and real-world system ownership",
+   "prep_pages": [
+    {
+     "title": "Netflix culture memo",
+     "url": "https://jobs.netflix.com/culture"
+    },
+    {
+     "title": "Engineering at Netflix (careers)",
+     "url": "https://jobs.netflix.com/careers/engineering"
+    }
+   ],
+   "notes": [
+    {
+     "text": "Netflix does not publish a step-by-step interview guide. Its culture memo is the official reference for the culture conversations: a dream team of high performers, people over process, freedom and responsibility, context not control, candor, and the keeper test.",
+     "kind": "official",
+     "source": "https://jobs.netflix.com/culture"
+    },
+    {
+     "text": "The memo says Netflix pays top of market for each role and location to recruit and retain stunning colleagues.",
+     "kind": "official",
+     "source": "https://jobs.netflix.com/culture"
+    },
+    {
+     "text": "Loops are usually described as a recruiter call, a hiring manager conversation, technical interviews about real systems the team owns, and several conversations that test the culture memo, with formats varying by team.",
+     "kind": "community-reported",
+     "source": "community-reported"
+    }
+   ]
+  },
+  "Amazon": {
+   "reel_summary": "Leadership Principles behavioral rounds and a Bar Raiser interview",
+   "prep_pages": [
+    {
+     "title": "How we hire",
+     "url": "https://www.amazon.jobs/content/en/how-we-hire"
+    },
+    {
+     "title": "The interview loop",
+     "url": "https://www.amazon.jobs/content/en/how-we-hire/interview-loop"
+    },
+    {
+     "title": "SDE II interview prep",
+     "url": "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+    },
+    {
+     "title": "Leadership Principles",
+     "url": "https://www.amazon.jobs/content/en/our-workplace/leadership-principles"
+    }
+   ],
+   "notes": [
+    {
+     "text": "SDE II steps: application, an online assessment (90 minutes for two coding questions, 20 minutes of system design scenarios, an 8-minute Work Style Survey), then the interview loop; the outcome usually comes within 5 business days.",
+     "kind": "official",
+     "source": "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+    },
+    {
+     "text": "Loop: four 55-minute interviews with members of the software development community; each interviewer assesses different Leadership Principles and usually asks two or three behavioral questions.",
+     "kind": "official",
+     "source": "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+    },
+    {
+     "text": "Coding: syntactically correct code, no pseudocode; scalable, robust and well tested, with edge cases. Expect at least one system design question.",
+     "kind": "official",
+     "source": "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+    },
+    {
+     "text": "Behavioral answers in STAR format with metrics where you have them; prepare examples of risk taking, success, failure and growth.",
+     "kind": "official",
+     "source": "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+    },
+    {
+     "text": "Amazon lists 16 Leadership Principles, from Customer Obsession and Ownership to Success and Scale Bring Broad Responsibility.",
+     "kind": "official",
+     "source": "https://www.amazon.jobs/content/en/our-workplace/leadership-principles"
+    },
+    {
+     "text": "Amazon's hiring pages name Bar Raisers as part of the process.",
+     "kind": "official",
+     "source": "https://www.amazon.jobs/content/en/how-we-hire"
+    },
+    {
+     "text": "The Bar Raiser is described as an interviewer from outside the hiring team who can veto a hire to keep the bar high.",
+     "kind": "community-reported",
+     "source": "community-reported"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,6 @@
+Backend Engineer
+Minimum qualifications: Bachelor’s degree in Computer Science or equivalent practical experience.
+3 years of experience with Python or Java.
+Experience with PostgreSQL and Redis.
+Preferred qualifications: Experience with Kubernetes.
+About the job: we build payments software used by Python teams everywhere.

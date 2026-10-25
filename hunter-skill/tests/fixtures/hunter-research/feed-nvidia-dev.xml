@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title type="text">NVIDIA Technical Blog</title>
+<updated>2026-10-14T23:10:12Z</updated>
+<entry><title type="html">Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym</title><link rel="alternate" type="text/html" href="https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/" /><id>https://developer.nvidia.com/blog/?p=123574</id><updated>2026-10-14T16:10:48Z</updated><published>2026-10-14T16:10:45Z</published><summary type="html">AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes...</summary></entry>
+<entry><title type="html">How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents</title><link rel="alternate" type="text/html" href="https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/" /><id>https://developer.nvidia.com/blog/?p=123309</id><updated>2026-10-13T21:33:24Z</updated><published>2026-10-13T21:33:21Z</published><summary type="html">Enterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequent, complex...</summary></entry>
+</feed>

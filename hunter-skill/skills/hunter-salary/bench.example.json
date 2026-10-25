@@ -1,0 +1,54 @@
+{
+  "benchmarks": [
+    {
+      "label": "BLS OEWS May 2025, Software Developers (SOC 15-1252), San Jose-Sunnyvale-Santa Clara, CA",
+      "kind": "base",
+      "source": "U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics (OEWS), May 2025 estimates, BLS Public Data API",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/OEUM004194000000015125213",
+      "as_of": "May 2025",
+      "series": {
+        "mean": "OEUM004194000000015125204",
+        "p10": "OEUM004194000000015125211",
+        "p25": "OEUM004194000000015125212",
+        "p50": "OEUM004194000000015125213",
+        "p75": "OEUM004194000000015125214",
+        "p90": "OEUM004194000000015125215"
+      },
+      "occupation": "Software Developers",
+      "area": "San Jose-Sunnyvale-Santa Clara, CA",
+      "cite": "BLS wage data (OEWS, May 2025)",
+      "note": "Annual wages for every employer and experience level in this occupation and area. They leave out stock grants and non-production bonuses: compare with base salary only.",
+      "p10": 138420.0,
+      "p25": 173650.0,
+      "p50": 213110.0,
+      "p75": 226080.0,
+      "p90": 289150.0,
+      "mean": 221710.0
+    },
+    {
+      "label": "BLS OEWS May 2025, Software Developers (SOC 15-1252), United States (national)",
+      "kind": "base",
+      "source": "U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics (OEWS), May 2025 estimates, BLS Public Data API",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/OEUN000000000000015125213",
+      "as_of": "May 2025",
+      "series": {
+        "mean": "OEUN000000000000015125204",
+        "p10": "OEUN000000000000015125211",
+        "p25": "OEUN000000000000015125212",
+        "p50": "OEUN000000000000015125213",
+        "p75": "OEUN000000000000015125214",
+        "p90": "OEUN000000000000015125215"
+      },
+      "occupation": "Software Developers",
+      "area": "United States (national)",
+      "cite": "BLS wage data (OEWS, May 2025)",
+      "note": "Annual wages for every employer and experience level in this occupation and area. They leave out stock grants and non-production bonuses: compare with base salary only.",
+      "p10": 82460.0,
+      "p25": 105210.0,
+      "p50": 135980.0,
+      "p75": 171980.0,
+      "p90": 214670.0,
+      "mean": 148100.0
+    }
+  ]
+}

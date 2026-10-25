@@ -1,0 +1,58 @@
+{
+  "_note": "Example for the reel's FICTIONAL candidate. Copy to hunter/profile.json and replace every value with your own true facts. Leave a value null when you have not decided: the skills ask you instead of guessing.",
+  "name": "Jordan Reyes",
+  "first_name": "Jordan",
+  "email": "jordan.reyes@example.com",
+  "phone": null,
+  "location": "Chicago, Illinois",
+  "target_roles": ["Software Engineer", "Backend Engineer", "Infrastructure Engineer"],
+  "seniority": "mid",
+  "years_experience": 3,
+  "skills": ["Go", "Python", "Java", "Distributed systems", "APIs", "gRPC", "Kubernetes", "PostgreSQL", "Kafka", "Machine learning", "Google Cloud", "AWS"],
+  "locations": ["Chicago, IL", "San Francisco Bay Area", "Seattle, WA", "New York, NY"],
+  "remote": true,
+  "relocate": true,
+  "exclude_titles": ["Staff", "Principal", "Director", "Manager", "Intern", "Lead"],
+  "dream_companies": ["Google", "Meta", "NVIDIA", "Netflix", "Amazon"],
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/your-handle",
+    "github": "https://github.com/your-handle",
+    "website": null
+  },
+  "work_authorization": {
+    "country": "US",
+    "authorized": true,
+    "needs_sponsorship": false
+  },
+  "salary_floor": 160000,
+  "currency": "USD",
+  "resume_path": "hunter/resumes/base.md",
+  "current": {
+    "company": "Brightline Labs",
+    "title": "Software Engineer",
+    "since": "2023-07"
+  },
+  "education": [
+    {"school": "University of Michigan", "degree": "B.S.E. Computer Science", "year": 2023}
+  ],
+  "answers": {
+    "start_date": "Two weeks after accepting an offer",
+    "notice_period": "Two weeks",
+    "relocation": "Yes. I'm open to relocating to the Bay Area, Seattle or New York.",
+    "onsite": "Yes, I'm happy to work onsite or hybrid.",
+    "how_did_you_hear": "The company's careers site",
+    "previously_employed": "No",
+    "salary_expectation": null,
+    "why_this_company": null,
+    "why_leaving": null,
+    "referral": null,
+    "pronouns": null
+  },
+  "self_identification": {
+    "_note": "Voluntary questions (gender, race or ethnicity, veteran status, disability). Claude never answers these for you. Fill them only if you want them reused; otherwise you answer them yourself on each form.",
+    "gender": null,
+    "race_ethnicity": null,
+    "veteran_status": null,
+    "disability_status": null
+  }
+}

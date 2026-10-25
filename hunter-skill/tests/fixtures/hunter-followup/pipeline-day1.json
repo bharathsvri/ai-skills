@@ -1,0 +1,12 @@
+{
+  "roles": [
+    {"id": "google-software-engineer", "company": "Google", "title": "Software Engineer", "url": null, "stage": "saved", "applied": null, "next_step": null, "next_date": null, "notes": "2026-10-11: added as saved"}
+  ],
+  "contacts": [
+    {"id": "maya-c-google", "name": "Maya C.", "role": "Engineering Manager", "company": "Google", "linkedin": null, "email": null, "email_confidence": null, "source": "Fictional hiring manager from the reel.", "notes": ""}
+  ],
+  "threads": [
+    {"contact_id": "maya-c-google", "role_id": "google-software-engineer", "channel": "email", "messages": [{"date": "2026-10-12", "direction": "out", "text": "Subject: Michigan alum + your design review post\n\nHi Maya, ... Would you be open to a 20 minute coffee chat next week?\n\nJordan"}], "status": "sent", "next_followup": null},
+    {"contact_id": "maya-c-google", "role_id": "google-software-engineer", "channel": "linkedin", "messages": [{"date": "2026-10-12", "direction": "out", "text": "Hi Maya, fellow Michigan alum and backend engineer. Would love to connect."}], "status": "sent", "next_followup": null}
+  ]
+}

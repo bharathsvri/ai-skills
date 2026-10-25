@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hunter-skill",
+  "description": "The Hunter skill pack for Claude",
+  "owner": {
+    "name": "Jake Schincariol",
+    "url": "https://opusjake.ai"
+  },
+  "plugins": [
+    {
+      "name": "hunter-skill",
+      "description": "Eleven Claude skills for landing a job: a job scout, a resume writer, a company researcher, a LinkedIn optimizer, the connector (hiring manager, research, outreach, coffee chat), cover letters, applications, interview coaching, salary negotiation, follow-ups and a pipeline tracker.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/Jakeschincariol/hunter-skill"
+    }
+  ]
+}

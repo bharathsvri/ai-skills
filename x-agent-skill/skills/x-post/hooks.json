@@ -1,0 +1,226 @@
+{
+  "version": "1.0",
+  "note": "21 hook formulas for X. On X the first line is not the start of the post, it is most of the post: the timeline shows a standard post whole, and a long one only until 'Show more'. So the hook has to be complete on its own, readable in the time it takes a thumb to decide, and specific enough that nobody else could have posted it. Every formula carries a template, a filled example, what it is for, the way it usually gets ruined, and a `match` regex so the same vocabulary can name a hook found in the wild, not only write a new one. Walk them in `classify_order`, most specific first, case-insensitive.",
+  "rules": [
+    "The first line has to work if it is the only line anybody reads. On X it usually is.",
+    "One idea. If the line needs a comma splice, it is two posts.",
+    "Numbers beat adjectives. '$4,200' beats 'a lot of money' every time.",
+    "No label as the hook. 'A thread', 'Hot take', 'Quick one' are packaging. Lead with the thing inside.",
+    "No link, no hashtag and no @ in line 1. A link there is an exit before the post has landed, and a hashtag is a link out of your own post.",
+    "If the hook would work with anybody else's name on it, it is not your hook."
+  ],
+  "hooks": [
+    {
+      "id": 1,
+      "name": "Contrarian Take",
+      "template": "Everyone says {common advice}. {Specific experience} says otherwise.",
+      "example": "Everyone says post three times a day. My best month on here was eight posts.",
+      "best_for": "A point of view. The highest reply rate of the 21, and replies are what X weighs.",
+      "trap": "Being contrarian about something nobody believes. The belief has to be genuinely common, or it is a straw man and the replies will say so.",
+      "match": "\\b(?:unpopular opinion|hot take|controversial|everyone (?:says|thinks|tells you|is wrong)|most people (?:think|believe|say)|stop (?:telling|saying)|is (?:overrated|a lie|dead)|nobody wants to hear)\\b"
+    },
+    {
+      "id": 2,
+      "name": "Number Reveal",
+      "template": "I {did thing} for {N} {days/weeks}. Here's what actually happened.",
+      "example": "I replied to 30 accounts bigger than me every day for 60 days. Here's what it did.",
+      "best_for": "Experiments and challenges. Anything with a countable result.",
+      "trap": "Burying the result. The number that matters goes in line 1 or line 2, not post 7.",
+      "match": "\\bi\\s+(?:\\w+\\s+){0,9}(?:for|in|over)\\s+(?:\\d+|two|three|four|five|six|seven|ten|twelve|thirty|sixty|ninety|a hundred)\\s+(?:straight\\s+)?(?:days?|weeks?|months?|years?)\\b"
+    },
+    {
+      "id": 3,
+      "name": "Cost Confession",
+      "template": "{Specific amount} is what {one mistake} cost me.",
+      "example": "$18,000 is what one missing clause cost me.",
+      "best_for": "Trust, fast. People repost the ones where you look bad.",
+      "trap": "A fake cost. 'It cost me my peace of mind' is not a number and everybody can hear that.",
+      "match": "\\$\\s?\\d[\\d,.]*k?\\s+(?:is|was) what\\b|\\bcost (?:me|us|him|her|them)\\b|\\blost\\b[^.!?\\n]{0,20}\\$\\s?\\d"
+    },
+    {
+      "id": 4,
+      "name": "Before / After",
+      "template": "{Time} ago I {low state}. Today I {high state}. One thing changed.",
+      "example": "A year ago I had 212 followers. Today I have 9,400. I changed one habit.",
+      "best_for": "Proof you have travelled the distance your reader wants to travel.",
+      "trap": "Three-part transformations. Name one lever or nobody believes any of them.",
+      "match": "\\b(?:\\d+|a|one|two|three|six|eighteen) (?:days?|weeks?|months?|years?) ago\\b|\\b(?:last year|this time last year)\\b[^.!?\\n]{0,60}\\b(?:today|now)\\b"
+    },
+    {
+      "id": 5,
+      "name": "The List",
+      "template": "{N} {things} {specific audience} should {do/know}:",
+      "example": "7 prompts I use every single day as a solo founder:",
+      "best_for": "Bookmarks. A list is the post people save to read later, and a bookmark is a signal you can see in your analytics.",
+      "trap": "N above 10. Nobody believes you have 15 good ones, and you do not.",
+      "match": "^\\s*(?:\\d{1,2}|three|four|five|six|seven|eight|nine|ten)\\s+(?:\\w+\\s+){0,2}(?:things|tools|lessons|ways|rules|mistakes|prompts|ideas|habits|books|signs|reasons|questions|steps|skills|apps|accounts|tips|truths|principles|people|sites)\\b"
+    },
+    {
+      "id": 6,
+      "name": "Nobody Tells You",
+      "template": "Nobody tells you {true, specific, slightly uncomfortable thing}.",
+      "example": "Nobody tells you this about growing on X.",
+      "best_for": "Insider knowledge from someone who has done the thing.",
+      "trap": "Following it with something everybody already tells you. The comments will quote it back.",
+      "match": "\\b(?:nobody|no one|no-one) (?:tells|told|talks about|warns|warned|mentions|explains)\\b"
+    },
+    {
+      "id": 7,
+      "name": "The Hottest New",
+      "template": "The hottest new {familiar category} is {unexpected thing}.",
+      "example": "The hottest new marketing hire is a skill file.",
+      "best_for": "Reframing. One sentence, no setup, that makes the reader see a category differently. The most reposted shape on AI Twitter.",
+      "trap": "A reframe that is not true enough to argue with. It has to be defensible, or it is just a slogan.",
+      "match": "\\bthe (?:hottest|best|biggest|fastest|most underrated|most valuable|next) new\\b|\\bis the new\\b"
+    },
+    {
+      "id": 8,
+      "name": "Credential Setup",
+      "template": "I'm {name} and I {built / run / did the thing}. Here's my exact setup.",
+      "example": "I'm Dana and I run a 7-figure agency with 4 people. Here's my exact stack.",
+      "best_for": "When who you are is the reason to read. Works only if the credential is real and specific.",
+      "trap": "A credential that is not one. 'I'm a creator who loves AI' is not a reason to keep reading.",
+      "match": "^\\s*i'?m\\s+[A-Za-z]+,?\\s+(?:and\\s+)?i\\s+\\w+|\\bhere'?s (?:my|the) (?:exact |whole |full )?(?:setup|stack|workflow|process|system|playbook)\\b"
+    },
+    {
+      "id": 9,
+      "name": "Time Anchor",
+      "template": "{Task} used to take me {long time}. It now takes {short time}.",
+      "example": "A client proposal used to take me 5 hours. It now takes 20 minutes.",
+      "best_for": "Automation and tooling posts. The ratio does the persuading.",
+      "trap": "An unbelievable ratio. 5 hours to 20 minutes lands; 5 hours to 5 seconds reads as an ad.",
+      "match": "\\bused to take\\b|\\bnow takes\\b|\\bin (?:under |less than )?\\d+\\s*(?:secs?|seconds|mins?|minutes|hours?)\\b[^.!?\\n]{0,40}\\binstead of\\b"
+    },
+    {
+      "id": 10,
+      "name": "Someone Else's Result",
+      "template": "{A specific person} {did something surprising} with {specific tool/approach}.",
+      "example": "I watched a founder build his whole onboarding flow on a call in 40 minutes.",
+      "best_for": "Borrowed proof, told first-hand. Lower ego than your own result, often more believed.",
+      "trap": "A result you cannot vouch for. If you did not see it, it is a rumour, and a rumour with a number in it is worse.",
+      "match": "\\b(?:my (?:client|friend|dad|mom|brother|sister|cofounder|co-founder|intern)|a (?:guy|friend|founder|client|kid|student|stranger)|i watched)\\b[^.!?\\n]{0,60}\\b(?:made|makes|build|built|builds|replace|grew|hit|quit|sold|raised|shipped|replaced|automated)\\b"
+    },
+    {
+      "id": 11,
+      "name": "The Prediction",
+      "template": "In {timeframe}, {specific change} will {happen}. {Why, in one line}.",
+      "example": "In 18 months, no agency will sell a retainer without a skill file.",
+      "best_for": "Positioning. A dated, falsifiable call people come back to quote.",
+      "trap": "A prediction that cannot be wrong. 'AI will change everything' is not a prediction.",
+      "match": "\\b(?:in (?:\\d+|a few|two|three|five|ten|eighteen) (?:months?|years?)|by (?:20\\d\\d|next year|the end of)|within (?:a|\\d+) (?:years?|months?))\\b[^.!?\\n]{0,80}\\b(?:will|won'?t|is going to|are going to)\\b|\\bmark my words\\b|\\bcalling it\\b"
+    },
+    {
+      "id": 12,
+      "name": "The Command",
+      "template": "{Imperative verb} {specific thing}. {The reason, in one line}.",
+      "example": "Delete the first line of every post you draft. It's almost always throat-clearing.",
+      "best_for": "Teaching in one move. Short, useful, bookmarkable.",
+      "trap": "A command with no reason. 'Stop using ChatGPT.' Why? The reason is the post.",
+      "match": "^\\s*(?:stop|never|don'?t|quit|delete|steal|copy|bookmark|save|read|use|try|send|go|write|build|start|unfollow|mute)\\b"
+    },
+    {
+      "id": 13,
+      "name": "The Statistic",
+      "template": "{Surprising figure} of {group} {do something}. {What it means}.",
+      "example": "3 of my last 40 posts brought in 71% of my new followers.",
+      "best_for": "Authority, when the number is real and you can show where it came from. Your own analytics count.",
+      "trap": "A made-up or unsourced stat. On X somebody will ask for the source in under a minute.",
+      "match": "^\\s*\\d+(?:\\.\\d+)?\\s?%|\\b\\d+(?:\\.\\d+)?\\s?(?:%|percent) of\\b|\\b\\d+ (?:in|out of) (?:every )?\\d+\\b|\\b\\d+(?:\\.\\d+)?\\s?(?:x|times) (?:a|as|more|less|the|what)\\b"
+    },
+    {
+      "id": 14,
+      "name": "The Coinage",
+      "template": "There's a new kind of {activity} I call \"{name}\". {What it is}.",
+      "example": "There's a new kind of job I call \"agent wrangling\". Half my week is it now.",
+      "best_for": "Naming a thing people are already doing without a word for it. When it lands, the name travels further than the post.",
+      "trap": "Naming something that already has a name. The replies will link the Wikipedia page.",
+      "match": "\\bi (?:call|called|'ve been calling|have been calling)\\b|\\bwhat i call\\b|\\ba new kind of\\b|\\bthere'?s a name for\\b"
+    },
+    {
+      "id": 15,
+      "name": "The Launch",
+      "template": "{New thing} just {shipped/launched}. {The one detail that matters}.",
+      "example": "Claude Code just shipped plugins. You can install a whole team's workflow in one command.",
+      "best_for": "News, first. On X being early is worth more than being thorough.",
+      "trap": "Siren emoji and 'BREAKING' on something that is not. It works once.",
+      "match": "^\\s*(?:🚨|breaking|big news|new in\\b|introducing\\b|announcing\\b)|\\bjust (?:shipped|launched|released|dropped|announced|open[- ]sourced)\\b"
+    },
+    {
+      "id": 16,
+      "name": "Thread Promise",
+      "template": "I {spent N hours doing specific thing}. Here's everything I learned:",
+      "example": "I read every post that got 1M+ views in my niche last month. Here's what they had in common:",
+      "best_for": "Threads. The first post sells the whole thread, so it has to promise a specific payoff.",
+      "trap": "'A thread 🧵' as the hook. That is a label. The payoff is the hook.",
+      "match": "🧵|\\bhere'?s (?:everything|what) (?:i|we) (?:learned|found|noticed)\\b|\\b(?:a|this|short|quick|long) thread\\b|:\\s*$"
+    },
+    {
+      "id": 17,
+      "name": "The Regret",
+      "template": "I wasted {time} on {thing}. {What you'd do instead}.",
+      "example": "I wasted two years posting to nobody. Replies would have got me there in six months.",
+      "best_for": "Saving the reader the same mistake. Humility without a price tag on it.",
+      "trap": "A regret that is secretly a brag. 'I wish I'd raised less' reads exactly how it sounds.",
+      "match": "\\b(?:biggest|worst|dumbest|costliest|only) (?:mistake|regret)\\b|\\bi (?:wasted|regret|screwed up|messed up|wish i(?:'d| had))\\b"
+    },
+    {
+      "id": 18,
+      "name": "The Comparison",
+      "template": "{Expensive/known option} vs {cheap/new option}. {Which won and by how much}.",
+      "example": "A $12,000 agency retainer vs a weekend with Claude. The weekend won.",
+      "best_for": "Decisions your audience is actually making.",
+      "trap": "A rigged fight. If the loser is a straw man, nobody learns anything and the loser's fans reply.",
+      "match": "\\bvs\\.?\\b|\\bversus\\b|\\binstead of\\b|\\bbetter than\\b|\\breplaced (?:my|our|a)\\b"
+    },
+    {
+      "id": 19,
+      "name": "Field Report",
+      "template": "I've been {spending time with specific group} lately. {What you noticed that others haven't}.",
+      "example": "I've been sitting in on agency sales calls lately. Nobody asks about price anymore.",
+      "best_for": "Observation from the inside. The post is the noticing.",
+      "trap": "A report with no observation in it. 'Been talking to founders, the vibes are shifting' says nothing.",
+      "match": "\\bi'?ve been (?:\\w+ing)\\b|\\b(?:lately|these days|this week|this month|recently)\\b"
+    },
+    {
+      "id": 20,
+      "name": "The Open Question",
+      "template": "{Specific question only your audience can answer}?",
+      "example": "What's the one $20/month tool you'd cancel last?",
+      "best_for": "Replies. A good question is the cheapest way to fill a thread, and the answers are next week's research.",
+      "trap": "A question anybody could ask. 'Thoughts?' and 'What do you think about AI?' get nothing.",
+      "match": "^[^.!\\n]{8,140}\\?\\s*$"
+    },
+    {
+      "id": 21,
+      "name": "The One-Liner",
+      "template": "{One true, short sentence. No setup.}",
+      "example": "Your first 1,000 followers come from replies, not posts.",
+      "best_for": "Posts that are complete in one line and meant to be quoted. The shape of most of the biggest posts on the platform.",
+      "trap": "A one-liner that is only a vibe. It has to be a claim somebody could disagree with.",
+      "match": "^\\s*(?:\\S+\\s+){2,13}\\S+\\s*$"
+    }
+  ],
+  "classify_order": [
+    3,
+    7,
+    14,
+    8,
+    9,
+    6,
+    5,
+    16,
+    15,
+    2,
+    4,
+    13,
+    11,
+    10,
+    17,
+    1,
+    18,
+    19,
+    12,
+    20,
+    21
+  ]
+}

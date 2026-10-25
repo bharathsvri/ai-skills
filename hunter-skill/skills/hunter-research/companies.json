@@ -1,0 +1,102 @@
+{
+ "_note": "Public sources per company, each checked live on 2026-10-15 (careers pages and feeds answered 200; cik and ticker from SEC's company_tickers.json; Google's investor link is the one its careers site links). Feeds are the companies' own RSS/Atom feeds.",
+ "verified": "2026-10-15",
+ "companies": {
+  "Google": {
+   "legal_name": "Alphabet Inc.",
+   "ticker": "GOOGL",
+   "cik": "0001652044",
+   "domain": "google.com",
+   "careers": "https://www.google.com/about/careers/applications/",
+   "investors": "https://abc.xyz/investor/",
+   "feeds": [
+    {
+     "id": "google-blog",
+     "name": "News from Google",
+     "url": "https://blog.google/rss/"
+    },
+    {
+     "id": "google-cloud-blog",
+     "name": "Google Cloud Blog",
+     "url": "https://cloudblog.withgoogle.com/rss/"
+    },
+    {
+     "id": "google-developers",
+     "name": "Google Developers Blog",
+     "url": "https://developers.googleblog.com/feeds/posts/default"
+    }
+   ]
+  },
+  "Meta": {
+   "legal_name": "Meta Platforms, Inc.",
+   "ticker": "META",
+   "cik": "0001326801",
+   "domain": "meta.com",
+   "careers": "https://www.metacareers.com/",
+   "feeds": [
+    {
+     "id": "meta-engineering",
+     "name": "Engineering at Meta",
+     "url": "https://engineering.fb.com/feed/"
+    }
+   ]
+  },
+  "NVIDIA": {
+   "legal_name": "NVIDIA Corporation",
+   "ticker": "NVDA",
+   "cik": "0001045810",
+   "domain": "nvidia.com",
+   "careers": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+   "feeds": [
+    {
+     "id": "nvidia-dev",
+     "name": "NVIDIA Technical Blog",
+     "url": "https://developer.nvidia.com/blog/feed/"
+    },
+    {
+     "id": "nvidia-blog",
+     "name": "NVIDIA Blog",
+     "url": "https://blogs.nvidia.com/feed/"
+    }
+   ]
+  },
+  "Netflix": {
+   "legal_name": "Netflix, Inc.",
+   "ticker": "NFLX",
+   "cik": "0001065280",
+   "domain": "netflix.com",
+   "careers": "https://jobs.netflix.com/",
+   "feeds": [
+    {
+     "id": "netflix-tech",
+     "name": "Netflix TechBlog",
+     "url": "https://netflixtechblog.com/feed"
+    }
+   ]
+  },
+  "Amazon": {
+   "legal_name": "Amazon.com, Inc.",
+   "ticker": "AMZN",
+   "cik": "0001018724",
+   "domain": "amazon.com",
+   "careers": "https://www.amazon.jobs/",
+   "feeds": [
+    {
+     "id": "amazon-news",
+     "name": "Amazon News",
+     "url": "https://www.aboutamazon.com/news/rss"
+    },
+    {
+     "id": "amazon-science",
+     "name": "Amazon Science",
+     "url": "https://www.amazon.science/index.rss"
+    },
+    {
+     "id": "aws-news",
+     "name": "AWS News Blog",
+     "url": "https://aws.amazon.com/blogs/aws/feed/"
+    }
+   ]
+  }
+ }
+}

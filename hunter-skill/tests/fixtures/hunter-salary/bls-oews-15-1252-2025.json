@@ -1,0 +1,280 @@
+{
+ "_fixture": "Real BLS Public Data API v2 response, fetched 2026-10-15 (POST https://api.bls.gov/publicAPI/v2/timeseries/data/, startyear=endyear=2025): OEWS annual wages for SOC 15-1252 Software Developers, national (N0000000), San Jose-Sunnyvale-Santa Clara MSA 41940 and Chicago MSA 16980; datatypes 04 mean, 11 p10, 12 p25, 13 median, 14 p75, 15 p90. Unchanged except this note.",
+ "status": "REQUEST_SUCCEEDED",
+ "responseTime": 118,
+ "message": [],
+ "Results": {
+  "series": [
+   {
+    "seriesID": "OEUN000000000000015125204",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "148100",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUN000000000000015125211",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "82460",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUN000000000000015125212",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "105210",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUN000000000000015125213",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "135980",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUN000000000000015125214",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "171980",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUN000000000000015125215",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "214670",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUM004194000000015125204",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "221710",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUM004194000000015125211",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "138420",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUM004194000000015125212",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "173650",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUM004194000000015125213",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "213110",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUM004194000000015125214",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "226080",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUM004194000000015125215",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "289150",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUM001698000000015125204",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "141640",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUM001698000000015125211",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "83820",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUM001698000000015125212",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "104530",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUM001698000000015125213",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "134380",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUM001698000000015125214",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "167650",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   },
+   {
+    "seriesID": "OEUM001698000000015125215",
+    "data": [
+     {
+      "year": "2025",
+      "period": "A01",
+      "periodName": "Annual",
+      "latest": "true",
+      "value": "203410",
+      "footnotes": [
+       {}
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

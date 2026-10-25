@@ -1,0 +1,105 @@
+{
+ "_note": "The reel's FICTIONAL outreach on Day 5: Jordan Reyes emailed Maya C. on Day 1 (2026-10-15), sent a LinkedIn invite the same day, followed up on Day 4 and Maya replied on Day 5. A second fictional contact shows the stop rules.",
+ "roles": [
+  {
+   "id": "google-software-engineer-cloud-infra",
+   "company": "Google",
+   "title": "Software Engineer",
+   "url": "https://www.google.com/about/careers/applications/jobs/results",
+   "stage": "saved",
+   "applied": null,
+   "next_step": "Coffee chat with the hiring manager",
+   "next_date": null,
+   "notes": "Google Cloud, Infrastructure"
+  }
+ ],
+ "contacts": [
+  {
+   "id": "maya-c-google",
+   "name": "Maya C.",
+   "role": "Engineering Manager",
+   "company": "Google",
+   "linkedin": null,
+   "email": "maya.c@example.com",
+   "email_confidence": 0.36,
+   "source": "team page and public profile",
+   "notes": "Posted about how her team runs design reviews (public post); University of Michigan alum (public profile)"
+  },
+  {
+   "id": "maya-c-netflix",
+   "name": "Maya C.",
+   "role": "Engineering Manager",
+   "company": "Netflix",
+   "linkedin": null,
+   "email": "maya.c@example.org",
+   "email_confidence": 0.36,
+   "source": "team page",
+   "notes": ""
+  }
+ ],
+ "threads": [
+  {
+   "contact_id": "maya-c-google",
+   "role_id": "google-software-engineer-cloud-infra",
+   "channel": "email",
+   "messages": [
+    {
+     "date": "2026-10-15",
+     "direction": "out",
+     "text": "Hi Maya, Your post about how your team runs design reviews hit home. I used the same approach to rebuild our payments API. I'm a fellow Michigan alum and I'm applying for the Software Engineer role on your team. Would you be open to a 20 minute coffee chat next week? Jordan"
+    },
+    {
+     "date": "2026-10-18",
+     "direction": "out",
+     "text": "Hi Maya, a quick follow-up with the one-page design doc from that payments rebuild, in case it's useful for your team. Would a 20 minute chat next week work? Jordan"
+    },
+    {
+     "date": "2026-10-19",
+     "direction": "in",
+     "text": "Love that you rebuilt payments that way. Happy to grab a coffee, does Thursday at 10 work?"
+    }
+   ],
+   "status": "replied",
+   "next_followup": null
+  },
+  {
+   "contact_id": "maya-c-google",
+   "role_id": "google-software-engineer-cloud-infra",
+   "channel": "linkedin",
+   "messages": [
+    {
+     "date": "2026-10-15",
+     "direction": "out",
+     "text": "Hi Maya, fellow Michigan alum and backend engineer. Would love to connect."
+    }
+   ],
+   "status": "sent",
+   "next_followup": null,
+   "invite": true
+  },
+  {
+   "contact_id": "maya-c-netflix",
+   "role_id": null,
+   "channel": "email",
+   "messages": [
+    {
+     "date": "2026-09-20",
+     "direction": "out",
+     "text": "Hi Maya, ... Would you be open to a short chat?"
+    },
+    {
+     "date": "2026-09-23",
+     "direction": "out",
+     "text": "Hi Maya, following up ... Would a short chat work?"
+    },
+    {
+     "date": "2026-09-30",
+     "direction": "out",
+     "text": "Hi Maya, last note from me ... Would a short chat work?"
+    }
+   ],
+   "status": "sent",
+   "next_followup": null
+  }
+ ]
+}

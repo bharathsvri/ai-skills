@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+*.tmp
+# media the tools render while you work
+*.mp4
+*.mov
+*.wav
+*.m4a
+out/

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "duel-skill",
+  "description": "The Duel (Face Off) skill for Claude Code",
+  "owner": {
+    "name": "Jake Schincariol"
+  },
+  "plugins": [
+    {
+      "name": "duel-skill",
+      "description": "Challenge Claude's answer with a real OpenAI critic, then track what Claude retains, revises, drops, or leaves unresolved.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/Jakeschincariol/duel-skill"
+    }
+  ]
+}

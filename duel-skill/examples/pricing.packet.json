@@ -1,0 +1,21 @@
+{
+  "task": "Should I raise my monthly coaching price from $500 to $700? Give a practical recommendation and identify what evidence I should collect before rolling it out.",
+  "answer": "Test $700 with new prospects before raising all existing clients. At unchanged cost per client and with no capacity effects, retaining more than 5/7 (about 71.4%) of the client count would increase gross monthly revenue relative to $500. That calculation is a revenue threshold, not a prediction of retention or proof that profit will rise. Track qualified leads, conversion rate, cancellations, delivery cost, and client outcomes during a small pilot. If the pilot supports the higher price, consider a clearly communicated transition for existing clients. Do not set a rollout date until the available evidence is adequate for the decision.",
+  "round": 1,
+  "history": [],
+  "context": "Illustrative offline example only. No actual customer data, live model critique, or verified business recommendation is included. Assume the price is per client per month. Current client count, acquisition costs, demand, capacity, retention, and willingness to pay are unknown.",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "Testing $700 with new prospects before changing existing clients' prices is a reasonable first step given the missing demand and retention evidence."
+    },
+    {
+      "id": "C2",
+      "text": "For the same comparison period, gross revenue at $700 is higher than at $500 if the paying client count stays above 5/7 of its original level, assuming all compared clients pay the respective full prices."
+    },
+    {
+      "id": "C3",
+      "text": "The revenue threshold alone cannot establish whether the price increase will improve profit or client outcomes."
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "name": "promptmaster credit-waste patterns",
+  "version": "1.0",
+  "count": 35,
+  "note": "Every pattern is a way a prompt forces a retry, a correction, or a bigger context than the task needs. Retries are the expensive part: each one resends the whole conversation. The audit checks the user's raw prompt against all 35 before anything runs.",
+  "families": [
+    {
+      "family": "VAGUE ASK",
+      "why": "Vagueness makes the model guess. Wrong guesses force retries, and every retry resends the full conversation.",
+      "patterns": [
+        {
+          "id": 1,
+          "name": "no deliverable named",
+          "signal": "The prompt says what topic to work on but not what to produce (a table? a script? a file? a list?).",
+          "fix": "Name the artifact: 'one table with columns X, Y, Z', 'a 30-second script', 'a single .md file'."
+        },
+        {
+          "id": 2,
+          "name": "no audience",
+          "signal": "Content is requested with no reader in mind ('write me something for instagram').",
+          "fix": "Say who it is for and what they already know: 'a local coffee shop with 8k followers'."
+        },
+        {
+          "id": 3,
+          "name": "no length or size",
+          "signal": "No word count, item count, or duration, so the model picks one and it is wrong.",
+          "fix": "Cap it: 'under 400 words', '10 ideas', '3 options max'."
+        },
+        {
+          "id": 4,
+          "name": "no done-when",
+          "signal": "There is no way to tell whether the answer succeeded.",
+          "fix": "State the finish line: 'done when I can paste it into the scheduler without edits'."
+        },
+        {
+          "id": 5,
+          "name": "'something like' hedging",
+          "signal": "'something like', 'kind of', 'maybe a', 'or whatever' in the ask.",
+          "fix": "Commit to one version. You can change it after you see it."
+        },
+        {
+          "id": 6,
+          "name": "open verdict fishing",
+          "signal": "'thoughts?', 'what do you think?', 'any ideas?' with no decision attached.",
+          "fix": "Ask the decision you actually face: 'pick one of these two and say why'."
+        },
+        {
+          "id": 7,
+          "name": "style matters but no example",
+          "signal": "Tone or format matters and no sample is given, guaranteeing a voice miss.",
+          "fix": "Paste one short example of the style you want and say 'match this'."
+        },
+        {
+          "id": 8,
+          "name": "buried constraint",
+          "signal": "A hard requirement you already know (budget, tool, deadline) is left out, then revealed after the first wrong answer.",
+          "fix": "List every known constraint up front, even the obvious ones."
+        },
+        {
+          "id": 9,
+          "name": "multiple unrelated asks fused",
+          "signal": "Two or three different jobs in one sentence, so each gets a shallow half-answer.",
+          "fix": "One prompt per job, or number them and ask for them in order."
+        },
+        {
+          "id": 10,
+          "name": "'make it better' with no direction",
+          "signal": "Improvement is requested without naming what is wrong.",
+          "fix": "Name the failure: 'the hook is weak', 'too formal', 'cut it to half'."
+        }
+      ]
+    },
+    {
+      "family": "RE-EXPLAINING",
+      "why": "Saying the same thing twice is pure waste. The second explanation costs tokens and proves the first one leaked.",
+      "patterns": [
+        {
+          "id": 11,
+          "name": "re-pasting the same context",
+          "signal": "The same background paragraph gets pasted into message after message.",
+          "fix": "State it once, lock it as a decision, and reference it ('per the locked voice')."
+        },
+        {
+          "id": 12,
+          "name": "restarting instead of continuing",
+          "signal": "A fresh chat is opened for a follow-up, so all context must be rebuilt from zero.",
+          "fix": "Continue the thread, or carry a 5-line summary + the locked decisions into the new one."
+        },
+        {
+          "id": 13,
+          "name": "repeating a decision already made",
+          "signal": "A preference stated earlier (voice, format, stack) is restated because the model drifted.",
+          "fix": "Lock it in decisions.md the first time. Locked decisions are re-applied automatically."
+        },
+        {
+          "id": 14,
+          "name": "asking the model to recall its own output",
+          "signal": "'like you said before' or 'use the version from earlier' with no quote, forcing a re-derivation.",
+          "fix": "Paste the 2 lines you mean. Quoting is cheaper than remembering."
+        },
+        {
+          "id": 15,
+          "name": "unstated correction loop",
+          "signal": "The same class of mistake gets corrected one instance at a time across many messages.",
+          "fix": "Correct the rule, not the instance: 'never use em dashes anywhere', then lock it."
+        }
+      ]
+    },
+    {
+      "family": "OVERFEEDING",
+      "why": "Every pasted token is billed on every following turn. Context you did not need is rent you keep paying.",
+      "patterns": [
+        {
+          "id": 16,
+          "name": "whole file for a one-function question",
+          "signal": "800 lines pasted when the question is about 20.",
+          "fix": "Paste the relevant function plus its callers. Name the file for the rest."
+        },
+        {
+          "id": 17,
+          "name": "unsummarized transcript dump",
+          "signal": "A full meeting transcript or thread pasted raw when only the decisions matter.",
+          "fix": "Ask for or write a 10-line summary first, then work from that."
+        },
+        {
+          "id": 18,
+          "name": "irrelevant attachments",
+          "signal": "Docs attached 'just in case' that the task never touches.",
+          "fix": "Attach only what the task reads. Mention the rest exists."
+        },
+        {
+          "id": 19,
+          "name": "screenshot of text",
+          "signal": "An error message or config sent as an image, which costs more and reads worse.",
+          "fix": "Paste the text itself. Exact characters matter."
+        },
+        {
+          "id": 20,
+          "name": "paraphrased error message",
+          "signal": "'it says something about a missing module' instead of the actual error.",
+          "fix": "Paste the exact error, top line to bottom line."
+        },
+        {
+          "id": 21,
+          "name": "duplicated instructions",
+          "signal": "The same rule appears in the prompt twice in different words, inviting the model to treat them as different rules.",
+          "fix": "Say each rule once, in one place."
+        },
+        {
+          "id": 35,
+          "name": "redundant context",
+          "signal": "Background the model already has (from this chat, the repo, or a locked decision) is pasted again anyway.",
+          "fix": "Trust what is already in context. Add only what is new."
+        }
+      ]
+    },
+    {
+      "family": "UNDERSPECIFIED PROCESS",
+      "why": "When the how is open, the model picks a how. If its pick is wrong you pay for the work twice.",
+      "patterns": [
+        {
+          "id": 22,
+          "name": "no stack or tool pinned",
+          "signal": "A build is requested without naming the language, framework, or tool, so the model chooses and gets corrected.",
+          "fix": "Pin it: 'plain HTML + vanilla JS, no frameworks'."
+        },
+        {
+          "id": 23,
+          "name": "no do-not-touch list",
+          "signal": "Nothing marks what must stay unchanged, so working parts get rewritten.",
+          "fix": "Say what is frozen: 'do not modify the deploy script or the schema'."
+        },
+        {
+          "id": 24,
+          "name": "missing environment facts",
+          "signal": "OS, versions, or account limits that change the answer are left for the model to assume.",
+          "fix": "State them: 'macOS, Node 22, free-tier plan'."
+        },
+        {
+          "id": 25,
+          "name": "full rewrite when a diff would do",
+          "signal": "'rewrite the whole thing' for a 2-line change, regenerating everything.",
+          "fix": "Ask for the edit: 'change only the hook, keep the rest verbatim'."
+        },
+        {
+          "id": 26,
+          "name": "no output cap on long generation",
+          "signal": "An open-ended 'write everything' that produces 3x more than will be read.",
+          "fix": "Cap the output and ask for the rest only if needed."
+        },
+        {
+          "id": 27,
+          "name": "no priority when tradeoffs exist",
+          "signal": "Speed, cost, and quality all implied equally, so the model optimizes the wrong one.",
+          "fix": "Rank them: 'fast and cheap beats polished here'."
+        }
+      ]
+    },
+    {
+      "family": "CONVERSATION CHURN",
+      "why": "Messages are the unit of waste. Five turns that could have been one means the context got re-billed five times.",
+      "patterns": [
+        {
+          "id": 28,
+          "name": "one-question drip",
+          "signal": "Related questions asked one message at a time instead of batched.",
+          "fix": "Batch them: number 4 questions in one message, get 4 answers in one pass."
+        },
+        {
+          "id": 29,
+          "name": "permission-seeking turn",
+          "signal": "'can you...?' / 'would it be possible to...?' as its own message before the real ask.",
+          "fix": "Just ask the real thing. The capability check is free inside the same message."
+        },
+        {
+          "id": 30,
+          "name": "resending everything to change one word",
+          "signal": "The full prompt is re-pasted with a tiny edit instead of stating the delta.",
+          "fix": "Send the delta: 'same as before but the audience is beginners'."
+        },
+        {
+          "id": 31,
+          "name": "vague rejection",
+          "signal": "'not quite' / 'didn't like it' with no named miss, forcing a blind second attempt.",
+          "fix": "Name the miss in one line, and say what to keep."
+        },
+        {
+          "id": 32,
+          "name": "politeness padding",
+          "signal": "Apologies, warm-ups, and sign-offs carrying zero instruction, re-billed every turn after.",
+          "fix": "Be direct. Spend the tokens on constraints instead."
+        }
+      ]
+    },
+    {
+      "family": "WRONG TOOL FOR THE TURN",
+      "why": "Some turns should never have been prompts at all.",
+      "patterns": [
+        {
+          "id": 33,
+          "name": "big model for a lookup",
+          "signal": "A frontier model asked to spell-check, convert units, or fetch a fact a smaller tool answers.",
+          "fix": "Route trivial turns to a small model or a plain tool. Save the big model for judgment."
+        },
+        {
+          "id": 34,
+          "name": "regenerate instead of edit",
+          "signal": "Rerolling the whole answer hoping the one flaw disappears.",
+          "fix": "Point at the flaw and ask for a targeted fix of that section only."
+        }
+      ]
+    }
+  ]
+}

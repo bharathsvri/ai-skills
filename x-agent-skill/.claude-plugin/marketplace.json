@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "x-agent-skill",
+  "description": "The X agent skill pack for Claude",
+  "owner": { "name": "Jake Schincariol", "url": "https://opusjake.ai" },
+  "plugins": [
+    {
+      "name": "x-agent",
+      "description": "Eleven Claude skills that run an X account, including a virality engine, a hook scorer, X's weighted character counter, a thread builder and a humanizer.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/Jakeschincariol/x-agent-skill"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+ "_note": "LinkedIn field limits. 'linkedin_help' entries were read on LinkedIn's own Help pages on 2026-10-15 (url and quote). 'reported' entries are the limits LinkedIn's profile editor enforces as widely reported; we could not find them stated on a LinkedIn Help page, so the live character counter in the editor is the authority.",
+ "verified": "2026-10-15",
+ "fields": {
+  "headline": {
+   "max": 220,
+   "unit": "characters",
+   "status": "reported"
+  },
+  "about": {
+   "max": 2600,
+   "unit": "characters",
+   "status": "reported"
+  },
+  "skills": {
+   "max": 100,
+   "unit": "skills",
+   "status": "linkedin_help",
+   "source": "https://www.linkedin.com/help/linkedin/answer/35265",
+   "quote": "You can add a maximum of 100 skills to your profile."
+  },
+  "position_title": {
+   "max": 100,
+   "unit": "characters",
+   "status": "reported"
+  },
+  "position_description": {
+   "max": 2000,
+   "unit": "characters",
+   "status": "reported"
+  },
+  "invitation_note": {
+   "max": 200,
+   "unit": "characters",
+   "status": "linkedin_help",
+   "source": "https://www.linkedin.com/help/linkedin/answer/46662",
+   "quote": "Each message can be up to 200 characters.",
+   "free_notes_per_month": 3,
+   "free_quote": "You can add a personalized message to up to three connection requests per month."
+  }
+ },
+ "automation": {
+  "status": "linkedin_help",
+  "source": "https://www.linkedin.com/help/linkedin/answer/a1341387",
+  "rule": "LinkedIn's User Agreement (section 8.2) prohibits bots and other unauthorized automated methods to access the Services, add or download contacts, or send or redirect messages, and software that scrapes profiles."
+ }
+}

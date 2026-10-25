@@ -1,0 +1,19 @@
+{
+  "name": "duel-skill",
+  "description": "The Duel (Face Off): Claude defends and revises its answer against a real OpenAI critic, with up to three rounds and a visible claim ledger.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jake Schincariol"
+  },
+  "homepage": "https://github.com/Jakeschincariol/duel-skill",
+  "repository": "https://github.com/Jakeschincariol/duel-skill",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "openai",
+    "debate",
+    "critique",
+    "duel",
+    "face-off"
+  ]
+}

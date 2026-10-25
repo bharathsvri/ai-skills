@@ -1,0 +1,215 @@
+{
+  "_note": "Practice question bank for hunter-interview. Every question here is a practice prompt written for this pack: none is a leaked or confirmed real interview question. 'basis' says why it is here: 'official' = the company's own careers page (in 'sources', each read on the 'checked' date) describes this round or this kind of question; 'community' = commonly reported by candidates in public forums and NOT confirmed by the company. Check the source pages again before an interview; processes change by team, level and year.",
+  "as_of": "2026-10-15",
+  "sources": {
+    "google-how-we-hire": {
+      "publisher": "Google",
+      "url": "https://www.google.com/about/careers/applications/how-we-hire/",
+      "checked": "2026-10-15",
+      "says": "Possible Google Hiring Assessment (workstyle) and role-related assessments such as a coding exercise; one or two shorter recruiter conversations; a panel of interviews over video or in person; the same clear rubrics for every candidate for a role; role-related, open-ended questions and no brainteasers; AI tools are not permitted during interviews. Links Google's own videos, including a mock system design interview."
+    },
+    "google-interview-tips": {
+      "publisher": "Google",
+      "url": "https://www.google.com/about/careers/applications/interview-tips/",
+      "checked": "2026-10-15",
+      "says": "Many questions are like 'Tell me about a time when...' or 'How would you approach this situation...?'; use the STAR method; show impact with data ('Accomplished X, as measured by Y, by doing Z'); be ready to discuss ambiguity, working with people and teams (including conflict and influence) and your leadership style; interviewers watch the thought process and ask follow-ups; clarifying questions are fine; come with your own questions; Search and AI are not permitted during interviews."
+    },
+    "meta-techscreen": {
+      "publisher": "Meta",
+      "url": "https://www.metacareers.com/swe-prep-techscreen/",
+      "checked": "2026-10-15",
+      "says": "The initial software engineering tech screen is a 45-minute conversation with an engineer that assesses technical skills; Meta offers a downloadable Technical Screen Guide on the page."
+    },
+    "meta-onsite": {
+      "publisher": "Meta",
+      "url": "https://www.metacareers.com/swe-prep-onsite/",
+      "checked": "2026-10-15",
+      "says": "The full loop is several conversations that assess technical skills and let hiring managers get to know you; Meta offers a downloadable Full Loop Interview Guide with the details."
+    },
+    "nvidia-how-we-hire": {
+      "publisher": "NVIDIA",
+      "url": "https://www.nvidia.com/en-us/about-nvidia/careers/how-we-hire/",
+      "checked": "2026-10-15",
+      "says": "Full-time roles usually have phone interviews, then virtual or in-person interviews with the hiring manager, team members and people from other groups; one-on-one, small group or panel interviews usually last 30 to 60 minutes; technical roles may do a coding exercise, usually in HackerRank on a whiteboard or a laptop NVIDIA provides; an in-person onsite interview is required before an offer; unapproved outside tools such as ChatGPT are not allowed; an optional 15-minute Insider Chat does not affect the decision."
+    },
+    "netflix-culture": {
+      "publisher": "Netflix",
+      "url": "https://jobs.netflix.com/culture",
+      "checked": "2026-10-15",
+      "says": "Netflix's culture page: a Dream Team driven by performance and the keeper test; candor and everyday constructive feedback; people over process; context, not control; informed captains who own significant decisions; freedom with responsibility; pay described as personal top of market for the role and location."
+    },
+    "amazon-sde2-prep": {
+      "publisher": "Amazon",
+      "url": "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep",
+      "checked": "2026-10-15",
+      "says": "SDE II: online assessment, then a loop of four 55-minute interviews covering technical competencies and Leadership Principles; write syntactically correct code (no pseudocode) that is scalable, robust and well tested, and check edge cases; data structures and algorithms; system design prep; each interviewer usually asks two or three behavioral questions tied to the Leadership Principles; no brain teasers; include metrics; use the STAR method."
+    },
+    "amazon-interview-loop": {
+      "publisher": "Amazon",
+      "url": "https://www.amazon.jobs/content/en/how-we-hire/interview-loop",
+      "checked": "2026-10-15",
+      "says": "In the interview loop you meet current employees one at a time, each assessing different things; one of them may be a Bar Raiser, someone from another team focused on hiring quality; treat every interviewer the same."
+    },
+    "amazon-leadership-principles": {
+      "publisher": "Amazon",
+      "url": "https://www.amazon.jobs/content/en/our-workplace/leadership-principles",
+      "checked": "2026-10-15",
+      "says": "The 16 Leadership Principles: Customer Obsession; Ownership; Invent and Simplify; Are Right, A Lot; Learn and Be Curious; Hire and Develop the Best; Insist on the Highest Standards; Think Big; Bias for Action; Frugality; Earn Trust; Dive Deep; Have Backbone, Disagree and Commit; Deliver Results; Strive to be Earth's Best Employer; Success and Scale Bring Broad Responsibility."
+    },
+    "community": {
+      "publisher": "Candidates (public forums and write-ups)",
+      "url": null,
+      "checked": "2026-10-15",
+      "says": "Commonly reported by candidates. Not published or confirmed by the company. Treat as a guess about format and topics."
+    }
+  },
+  "companies": {
+    "google": {
+      "name": "Google",
+      "loop": [
+        {"round": "assessment", "what": "Possible Google Hiring Assessment (workstyle) and a role-related assessment such as a coding exercise, before interviews.", "basis": "official", "source": "google-how-we-hire"},
+        {"round": "recruiter", "what": "One or two shorter phone or video conversations with the recruiter about key skills, the team and your preferences.", "basis": "official", "source": "google-how-we-hire"},
+        {"round": "coding", "what": "Technical interviews where the interviewer watches how you think, asks follow-ups and expects you to clarify. Usually data structures and algorithms in a shared document, about 45 minutes each.", "basis": "official", "source": "google-interview-tips", "note": "The 45 minutes and the shared document are community-reported."},
+        {"round": "system-design", "what": "Designing a large system out loud, for more experienced roles. Google's own hiring page links a mock system design interview.", "basis": "official", "source": "google-how-we-hire", "note": "Which levels get a design round is community-reported."},
+        {"round": "behavioral", "what": "'Tell me about a time...' and 'How would you approach...' questions on ambiguity, collaboration, conflict and leadership, scored with the same rubric for everyone. Candidates call it the Googleyness and leadership round.", "basis": "official", "source": "google-interview-tips", "note": "The name 'Googleyness' is community usage."}
+      ],
+      "rules": "AI tools are not permitted during Google interviews (google-how-we-hire, google-interview-tips). Practice with Claude before, never during."
+    },
+    "meta": {
+      "name": "Meta",
+      "loop": [
+        {"round": "tech-screen", "what": "A 45-minute technical conversation with an engineer.", "basis": "official", "source": "meta-techscreen"},
+        {"round": "full-loop", "what": "Several conversations that assess technical skills and let hiring managers get to know you. Read Meta's downloadable Full Loop Interview Guide for the official breakdown.", "basis": "official", "source": "meta-onsite"},
+        {"round": "coding", "what": "Live coding, often two problems in about 45 minutes, at a fast pace.", "basis": "community", "source": "community"},
+        {"round": "system-design", "what": "System design or product architecture for experienced roles: deep architecture discussion.", "basis": "community", "source": "community"},
+        {"round": "behavioral", "what": "Past work: impact, conflict, feedback and growth.", "basis": "community", "source": "community"}
+      ],
+      "rules": "Use Meta's own guides from the two prep pages as the source of truth."
+    },
+    "nvidia": {
+      "name": "NVIDIA",
+      "loop": [
+        {"round": "phone", "what": "Phone interviews first, then virtual or in-person interviews.", "basis": "official", "source": "nvidia-how-we-hire"},
+        {"round": "coding", "what": "Technical roles may do a coding exercise, usually in HackerRank on a whiteboard or a laptop NVIDIA provides.", "basis": "official", "source": "nvidia-how-we-hire"},
+        {"round": "onsite", "what": "Interviews of 30 to 60 minutes with the hiring manager, team members and other groups; an in-person onsite is required before an offer.", "basis": "official", "source": "nvidia-how-we-hire"},
+        {"round": "technical-depth", "what": "Deep questions in the team's area: C++, CUDA and GPU architecture, parallel programming, deep learning systems, hardware.", "basis": "community", "source": "community"}
+      ],
+      "rules": "Unapproved outside tools such as ChatGPT are not allowed during NVIDIA interviews (nvidia-how-we-hire)."
+    },
+    "netflix": {
+      "name": "Netflix",
+      "loop": [
+        {"round": "culture", "what": "Conversations about how you work, measured against the values on Netflix's culture page: judgment, candor, context not control, informed captains, the keeper test.", "basis": "official", "source": "netflix-culture", "note": "That culture is assessed in dedicated conversations is community-reported; the values themselves are official."},
+        {"round": "system-design", "what": "Real-world system ownership: designing and operating services at scale.", "basis": "community", "source": "community"},
+        {"round": "coding", "what": "Practical coding, often closer to real work than puzzles.", "basis": "community", "source": "community"}
+      ],
+      "rules": "Read the culture page end to end before any Netflix conversation."
+    },
+    "amazon": {
+      "name": "Amazon",
+      "loop": [
+        {"round": "assessment", "what": "An online assessment before the loop.", "basis": "official", "source": "amazon-sde2-prep"},
+        {"round": "loop", "what": "Four 55-minute interviews; each interviewer assesses different competencies, technical and Leadership Principles.", "basis": "official", "source": "amazon-sde2-prep"},
+        {"round": "coding", "what": "Syntactically correct code, no pseudocode; scalable, robust, well-tested; edge cases; data structures and algorithms.", "basis": "official", "source": "amazon-sde2-prep"},
+        {"round": "system-design", "what": "System design for SDE II.", "basis": "official", "source": "amazon-sde2-prep"},
+        {"round": "leadership-principles", "what": "Two or three behavioral questions per interviewer, tied to the Leadership Principles. STAR answers with metrics.", "basis": "official", "source": "amazon-sde2-prep"},
+        {"round": "bar-raiser", "what": "One interviewer may be a Bar Raiser from another team, focused on hiring quality. Treat every interviewer the same.", "basis": "official", "source": "amazon-interview-loop"}
+      ],
+      "rules": "Prepare two stories per Leadership Principle, each with a number."
+    },
+    "any": {
+      "name": "Any company",
+      "loop": [
+        {"round": "behavioral", "what": "Past-behavior questions answered with STAR: Situation, Task, Action, Result, with a number.", "basis": "official", "source": "google-interview-tips", "note": "Amazon's prep page recommends STAR too (amazon-sde2-prep)."},
+        {"round": "ask-them", "what": "Your questions for them at the end. Google's tips page says to come ready with questions.", "basis": "official", "source": "google-interview-tips"}
+      ],
+      "rules": "Practice before. Never use Claude during a live interview."
+    }
+  },
+  "questions": [
+    {"id": "google-behavioral-01", "company": "google", "round": "behavioral", "basis": "official", "source": "google-interview-tips", "tests": "ambiguity", "question": "Tell me about a time you had to make a decision without the information you wanted. What did you do, and how did it turn out?"},
+    {"id": "google-behavioral-02", "company": "google", "round": "behavioral", "basis": "official", "source": "google-interview-tips", "tests": "conflict", "question": "Tell me about a time you disagreed with a teammate about a technical approach. How did you resolve it?"},
+    {"id": "google-behavioral-03", "company": "google", "round": "behavioral", "basis": "official", "source": "google-interview-tips", "tests": "leadership without the title", "question": "Tell me about a time you got a group to follow your plan when you were not their manager."},
+    {"id": "google-behavioral-04", "company": "google", "round": "behavioral", "basis": "official", "source": "google-interview-tips", "tests": "a hypothetical", "question": "How would you approach a quarter where two partner teams want opposite things from the service you own?"},
+    {"id": "google-behavioral-05", "company": "google", "round": "behavioral", "basis": "official", "source": "google-interview-tips", "tests": "impact with data", "question": "Tell me about the accomplishment you are proudest of, as: accomplished X, as measured by Y, by doing Z."},
+    {"id": "google-behavioral-06", "company": "google", "round": "behavioral", "basis": "official", "source": "google-interview-tips", "tests": "growth", "question": "Tell me about a time you pushed yourself well outside your comfort zone at work."},
+    {"id": "google-behavioral-07", "company": "google", "round": "behavioral", "basis": "official", "source": "google-interview-tips", "tests": "collaboration", "question": "Tell me about a project with a cross-functional or distributed team. What made it work, and what did you change along the way?"},
+    {"id": "google-behavioral-08", "company": "google", "round": "behavioral", "basis": "official", "source": "google-interview-tips", "tests": "influence", "question": "Tell me about a time you changed a teammate's mind with data rather than authority."},
+    {"id": "google-coding-01", "company": "google", "round": "coding", "basis": "official", "source": "google-interview-tips", "tests": "heaps, order statistics, follow-ups", "question": "Given a stream of request latencies, return the 99th percentile of the last N requests after each new one. Then make it fast when N is a million."},
+    {"id": "google-coding-02", "company": "google", "round": "coding", "basis": "official", "source": "google-interview-tips", "tests": "hash maps, sliding windows", "question": "Write a rate limiter that allows at most K requests per user in any rolling minute. How does it change with ten million users?"},
+    {"id": "google-coding-03", "company": "google", "round": "coding", "basis": "official", "source": "google-interview-tips", "tests": "graphs, topological sort", "question": "Given services and their dependencies, return an order to deploy them, or report the cycle that makes it impossible."},
+    {"id": "google-coding-04", "company": "google", "round": "coding", "basis": "official", "source": "google-interview-tips", "tests": "intervals, sorting", "question": "Given maintenance windows for many machines, return the time ranges when every machine is up."},
+    {"id": "google-coding-05", "company": "google", "round": "coding", "basis": "official", "source": "google-interview-tips", "tests": "BFS, shortest paths", "question": "Find the shortest route for a packet across a network graph when some links are down, and say what changes if links have different costs."},
+    {"id": "google-coding-06", "company": "google", "round": "coding", "basis": "official", "source": "google-interview-tips", "tests": "design of a data structure", "question": "Implement a cache with a fixed capacity that evicts the least recently used entry, with constant-time get and put."},
+    {"id": "google-design-01", "company": "google", "round": "system-design", "basis": "official", "source": "google-how-we-hire", "tests": "consistency, safe rollouts", "question": "Design a service that stores and serves configuration for thousands of other services, with safe, gradual rollouts."},
+    {"id": "google-design-02", "company": "google", "round": "system-design", "basis": "official", "source": "google-how-we-hire", "tests": "ingestion, aggregation, storage", "question": "Design a global metrics pipeline that collects latency from every server and answers p99 queries within seconds."},
+    {"id": "google-design-03", "company": "google", "round": "system-design", "basis": "official", "source": "google-how-we-hire", "tests": "scaling a real system", "question": "Take a system you built and redesign it for a hundred times the traffic. What breaks first, and what do you change?"},
+    {"id": "google-design-04", "company": "google", "round": "system-design", "basis": "official", "source": "google-how-we-hire", "tests": "scheduling, fault tolerance", "question": "Design a scheduler that runs batch jobs across a cluster and keeps going when machines fail."},
+
+    {"id": "meta-coding-01", "company": "meta", "round": "coding", "basis": "community", "source": "community", "tests": "graphs, BFS", "question": "Given a list of friendships, return everyone exactly two connections away from a user, ranked by mutual friends."},
+    {"id": "meta-coding-02", "company": "meta", "round": "coding", "basis": "community", "source": "community", "tests": "heaps, counting", "question": "Return the K most frequent hashtags in a stream of posts, and keep the answer current as posts arrive."},
+    {"id": "meta-coding-03", "company": "meta", "round": "coding", "basis": "community", "source": "community", "tests": "two pointers", "question": "Can a string become a palindrome if you delete at most one character? Return the index to delete."},
+    {"id": "meta-coding-04", "company": "meta", "round": "coding", "basis": "community", "source": "community", "tests": "trees, recursion", "question": "Flatten a tree of nested comments into display order, with each comment's depth."},
+    {"id": "meta-design-01", "company": "meta", "round": "system-design", "basis": "community", "source": "community", "tests": "fan-out, ranking, caching", "question": "Design a news feed for a billion users."},
+    {"id": "meta-design-02", "company": "meta", "round": "system-design", "basis": "community", "source": "community", "tests": "real-time delivery", "question": "Design the backend for live comments on a video watched by millions at once."},
+    {"id": "meta-design-03", "company": "meta", "round": "system-design", "basis": "community", "source": "community", "tests": "product architecture, APIs", "question": "Design the APIs and data model for uploading photos into shared albums."},
+    {"id": "meta-behavioral-01", "company": "meta", "round": "behavioral", "basis": "community", "source": "community", "tests": "impact", "question": "Tell me about the project with the most impact you have shipped. How did you measure it?"},
+    {"id": "meta-behavioral-02", "company": "meta", "round": "behavioral", "basis": "community", "source": "community", "tests": "feedback", "question": "Tell me about the hardest feedback you have received and what you did with it."},
+    {"id": "meta-behavioral-03", "company": "meta", "round": "behavioral", "basis": "community", "source": "community", "tests": "conflict", "question": "Tell me about a conflict with a coworker that you resolved. What would you do the same way next time?"},
+    {"id": "meta-behavioral-04", "company": "meta", "round": "behavioral", "basis": "community", "source": "community", "tests": "moving fast", "question": "Tell me about a time you shipped fast with incomplete information. What did you decide not to do?"},
+
+    {"id": "nvidia-depth-01", "company": "nvidia", "round": "technical-depth", "basis": "community", "source": "community", "tests": "GPU execution model", "question": "Explain how a GPU runs thousands of threads at once, and what a warp is."},
+    {"id": "nvidia-depth-02", "company": "nvidia", "round": "technical-depth", "basis": "community", "source": "community", "tests": "CUDA performance", "question": "What is memory coalescing, and why does it matter for a CUDA kernel's speed?"},
+    {"id": "nvidia-depth-03", "company": "nvidia", "round": "technical-depth", "basis": "community", "source": "community", "tests": "profiling ML systems", "question": "A deep learning training job is slower than expected. Walk through how you find out why, end to end."},
+    {"id": "nvidia-depth-04", "company": "nvidia", "round": "technical-depth", "basis": "community", "source": "community", "tests": "C++", "question": "In C++, when do move semantics matter, and what do they save?"},
+    {"id": "nvidia-depth-05", "company": "nvidia", "round": "technical-depth", "basis": "community", "source": "community", "tests": "distributed inference", "question": "How would you split a model too large for one GPU across several GPUs for inference?"},
+    {"id": "nvidia-coding-01", "company": "nvidia", "round": "coding", "basis": "official", "source": "nvidia-how-we-hire", "tests": "memory locality", "question": "Implement matrix multiplication, then make it cache-friendly and explain the speedup."},
+    {"id": "nvidia-coding-02", "company": "nvidia", "round": "coding", "basis": "official", "source": "nvidia-how-we-hire", "tests": "arrays, in-place work", "question": "Apply a 3 by 3 blur to a grayscale image using as little extra memory as you can."},
+    {"id": "nvidia-coding-03", "company": "nvidia", "round": "coding", "basis": "official", "source": "nvidia-how-we-hire", "tests": "concurrency", "question": "Write a thread-safe bounded queue and explain how it avoids deadlock."},
+    {"id": "nvidia-behavioral-01", "company": "nvidia", "round": "onsite", "basis": "official", "source": "nvidia-how-we-hire", "tests": "first-principles problem solving", "question": "Tell me about the hardest technical problem you solved by going back to first principles."},
+    {"id": "nvidia-behavioral-02", "company": "nvidia", "round": "onsite", "basis": "official", "source": "nvidia-how-we-hire", "tests": "fit with the hiring manager's team", "question": "Why this team at NVIDIA, and what do you want to be able to do in a year that you cannot do now?"},
+
+    {"id": "netflix-culture-01", "company": "netflix", "round": "culture", "basis": "official", "source": "netflix-culture", "tests": "informed captain", "question": "Tell me about a significant decision you made yourself as the person with the most context, without waiting for approval."},
+    {"id": "netflix-culture-02", "company": "netflix", "round": "culture", "basis": "official", "source": "netflix-culture", "tests": "candor", "question": "Tell me about feedback you gave a peer that was hard to say. How did you say it, and what changed?"},
+    {"id": "netflix-culture-03", "company": "netflix", "round": "culture", "basis": "official", "source": "netflix-culture", "tests": "context, not control", "question": "Describe a time you had context but no authority. How did you get people aligned without telling them what to do?"},
+    {"id": "netflix-culture-04", "company": "netflix", "round": "culture", "basis": "community", "source": "community", "tests": "independent judgment", "question": "Which part of the Netflix culture page do you agree with least, and why?"},
+    {"id": "netflix-culture-05", "company": "netflix", "round": "culture", "basis": "official", "source": "netflix-culture", "tests": "owning mistakes", "question": "Tell me about a mistake of yours that affected other people. What did you share, and with whom?"},
+    {"id": "netflix-culture-06", "company": "netflix", "round": "culture", "basis": "official", "source": "netflix-culture", "tests": "keeper test", "question": "If your manager ran the keeper test on you today, what would they say, and what would you want them to say?"},
+    {"id": "netflix-design-01", "company": "netflix", "round": "system-design", "basis": "community", "source": "community", "tests": "personalization at scale", "question": "Design a system that chooses which artwork to show each member for each title."},
+    {"id": "netflix-design-02", "company": "netflix", "round": "system-design", "basis": "community", "source": "community", "tests": "resilience", "question": "Design playback so it keeps working when an entire cloud region fails."},
+    {"id": "netflix-coding-01", "company": "netflix", "round": "coding", "basis": "community", "source": "community", "tests": "data structures, binary search", "question": "Build a key-value store that returns the value a key had at any past timestamp."},
+
+    {"id": "amazon-lp-customer-obsession", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Customer Obsession", "question": "Tell me about a time you changed a plan because of what a customer actually needed."},
+    {"id": "amazon-lp-ownership", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Ownership", "question": "Tell me about a time you took on something outside your job because nobody else would."},
+    {"id": "amazon-lp-invent-and-simplify", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Invent and Simplify", "question": "Tell me about a time you made something much simpler for the people using it."},
+    {"id": "amazon-lp-are-right-a-lot", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Are Right, A Lot", "question": "Tell me about a call you got right when others disagreed, and one you got wrong."},
+    {"id": "amazon-lp-learn-and-be-curious", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Learn and Be Curious", "question": "Tell me about something you taught yourself recently and how you used it at work."},
+    {"id": "amazon-lp-hire-and-develop", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Hire and Develop the Best", "question": "Tell me about a time you helped a teammate get noticeably better at their job."},
+    {"id": "amazon-lp-highest-standards", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Insist on the Highest Standards", "question": "Tell me about a time you would not ship something because it was not good enough."},
+    {"id": "amazon-lp-think-big", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Think Big", "question": "Tell me about a time you proposed something far bigger than what you were asked for."},
+    {"id": "amazon-lp-bias-for-action", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Bias for Action", "question": "Tell me about a time you acted fast with incomplete data. What was the risk, and how did you limit it?"},
+    {"id": "amazon-lp-frugality", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Frugality", "question": "Tell me about a result you got with fewer people, money or time than you wanted."},
+    {"id": "amazon-lp-earn-trust", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Earn Trust", "question": "Tell me about a time you admitted a mistake to your team before anyone else found it."},
+    {"id": "amazon-lp-dive-deep", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Dive Deep", "question": "Tell me about a time a metric looked fine but you dug in and found a real problem."},
+    {"id": "amazon-lp-backbone", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Have Backbone; Disagree and Commit", "question": "Tell me about a time you disagreed with a decision, said so, and then committed to it fully."},
+    {"id": "amazon-lp-deliver-results", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Deliver Results", "question": "Tell me about a time you hit a hard deadline despite a serious setback."},
+    {"id": "amazon-lp-best-employer", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Strive to be Earth's Best Employer", "question": "Tell me about something you did that made your team a better place to work."},
+    {"id": "amazon-lp-broad-responsibility", "company": "amazon", "round": "leadership-principles", "basis": "official", "source": "amazon-leadership-principles", "tests": "Success and Scale Bring Broad Responsibility", "question": "Tell me about a time you weighed the effects of your work on people beyond your team and your users."},
+    {"id": "amazon-coding-01", "company": "amazon", "round": "coding", "basis": "official", "source": "amazon-sde2-prep", "tests": "heaps, windows, tested code", "question": "From an order log, return the top K products by units sold in the last hour. Write it as production code with tests and edge cases."},
+    {"id": "amazon-coding-02", "company": "amazon", "round": "coding", "basis": "official", "source": "amazon-sde2-prep", "tests": "greedy, sorting", "question": "Given package weights and a truck limit, return the fewest trucks needed, and prove your approach is right."},
+    {"id": "amazon-coding-03", "company": "amazon", "round": "coding", "basis": "community", "source": "community", "tests": "object-oriented design", "question": "Design the classes for a parking garage with small, medium and large spots and a ticketing flow."},
+    {"id": "amazon-design-01", "company": "amazon", "round": "system-design", "basis": "official", "source": "amazon-sde2-prep", "tests": "events, consistency", "question": "Design an order-tracking service that shows customers where their package is right now."},
+    {"id": "amazon-design-02", "company": "amazon", "round": "system-design", "basis": "official", "source": "amazon-sde2-prep", "tests": "queues, idempotency", "question": "Design a service that sends delivery notifications to millions of customers with no duplicates and no misses."},
+
+    {"id": "any-behavioral-01", "company": "any", "round": "behavioral", "basis": "community", "source": "community", "tests": "your story in about a minute", "question": "Tell me about yourself."},
+    {"id": "any-behavioral-02", "company": "any", "round": "behavioral", "basis": "community", "source": "community", "tests": "motivation, research", "question": "Why this company, and why this team?"},
+    {"id": "any-behavioral-03", "company": "any", "round": "behavioral", "basis": "official", "source": "google-interview-tips", "tests": "failure and learning", "question": "Tell me about a project that failed. What would you do differently?"},
+    {"id": "any-behavioral-04", "company": "any", "round": "behavioral", "basis": "official", "source": "google-interview-tips", "tests": "prioritizing", "question": "Tell me about a time you had more work than time. How did you choose what to drop?"},
+    {"id": "any-behavioral-05", "company": "any", "round": "behavioral", "basis": "community", "source": "community", "tests": "technical depth in a story", "question": "What is the hardest bug you have fixed? Walk me through how you found it."},
+    {"id": "any-behavioral-06", "company": "any", "round": "behavioral", "basis": "official", "source": "google-interview-tips", "tests": "handling pressure", "question": "Tell me about a production incident you handled. What did you do in the first hour?"},
+    {"id": "any-ask-01", "company": "any", "round": "ask-them", "basis": "official", "source": "google-interview-tips", "tests": "your questions", "question": "Ask them: what would make someone great in this role after six months?"},
+    {"id": "any-ask-02", "company": "any", "round": "ask-them", "basis": "official", "source": "google-interview-tips", "tests": "your questions", "question": "Ask them: what is the hardest problem the team is working on this year?"},
+    {"id": "any-ask-03", "company": "any", "round": "ask-them", "basis": "official", "source": "google-interview-tips", "tests": "your questions", "question": "Ask them: how does the team run design reviews and decide between options?"},
+    {"id": "any-ask-04", "company": "any", "round": "ask-them", "basis": "official", "source": "google-interview-tips", "tests": "your questions", "question": "Ask them: what does on-call look like, and how has it changed in the last year?"}
+  ]
+}

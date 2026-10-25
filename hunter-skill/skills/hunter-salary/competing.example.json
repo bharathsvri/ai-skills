@@ -1,0 +1,11 @@
+{
+  "_note": "FICTIONAL competing offer for the example, with a back-loaded vesting schedule and a two-year sign-on. Made-up numbers, NOT what Amazon pays. Only ever mention a competing offer you really hold.",
+  "company": "Amazon",
+  "title": "Software Development Engineer II",
+  "location": "Seattle, WA",
+  "currency": "USD",
+  "base": 175000,
+  "sign_on": [45000, 35000],
+  "equity": {"grant_value": 200000, "vesting": "back-loaded", "cliff_months": 12},
+  "raise_pct": 0
+}

@@ -1,0 +1,13 @@
+{
+  "name": "master-skills",
+  "description": "Three Claude master skills: edit your videos, make them go viral, and build anything. Free, MIT.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jake Schincariol",
+    "url": "https://opusjake.ai"
+  },
+  "homepage": "https://github.com/Jakeschincariol/master-skills",
+  "repository": "https://github.com/Jakeschincariol/master-skills",
+  "license": "MIT",
+  "keywords": ["video-editing", "captions", "stop-motion", "virality", "content", "design", "web", "apps"]
+}

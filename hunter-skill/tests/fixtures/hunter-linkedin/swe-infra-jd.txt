@@ -1,0 +1,25 @@
+Software Engineer, Cloud Infrastructure
+(Illustrative job description written for these tests. Not a real listing.)
+
+About the job
+Our infrastructure team builds the distributed systems that run cloud services for millions of customers.
+You will design, build and operate large-scale backend services, improve reliability and latency, and
+take part in design reviews and on-call.
+
+Minimum qualifications:
+- Bachelor's degree in Computer Science or similar experience.
+- 2 years of experience writing software in Go, Java, C++ or Python.
+- 2 years of experience with data structures and algorithms.
+- Experience with distributed systems and system design.
+
+Preferred qualifications:
+- Experience with Kubernetes, containers and cloud infrastructure on Google Cloud (GCP).
+- Experience with gRPC or REST APIs, Kafka and PostgreSQL.
+- Experience with observability, SRE practices and performance tuning.
+- Experience with machine learning infrastructure.
+
+Responsibilities
+- Build and test backend services that other teams depend on.
+- Lead design reviews and weigh the trade-offs between technologies with your peers.
+- Give thoughtful code review and raise the bar for the codebase.
+- Find the root cause of production issues and fix them for good.
